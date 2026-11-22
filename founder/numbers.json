@@ -1,0 +1,32 @@
+{
+  "business": "Smart-Home-Nachrüstung Willich (Rollläden per Shelly), nebenberuflich",
+  "unit": "Rollladen",
+  "price": 119,
+  "variable": [
+    {"label": "Shelly 2PM Gen3 (Handelspreis 16-20 €)", "cost": 18.0},
+    {"label": "Kleinmaterial, Klemmen (Schätzung)", "cost": 2.0},
+    {"label": "Rücklage 2 Jahre Vor-Ort-Austausch (Schätzung, garantie.md)", "cost": 8.0},
+    {"label": "Fahrtkosten (Ø 20 km/Auftrag × 0,30 €/km ÷ 5 Rollläden, Schätzung)", "cost": 1.2},
+    {"label": "Empfehlungsbonus (25 € je 2. Auftrag ÷ 5 Rollläden, Schätzung)", "cost": 2.5}
+  ],
+  "fixed_monthly": [
+    {"label": "Betriebshaftpflicht Elektro (Schätzung 400 €/Jahr, Angebote einholen)", "cost": 33},
+    {"label": "Handwerkskammer-Beitrag (Jahr 1 befreit; danach ermäßigt, Höhe erfragen)", "cost": 0},
+    {"label": "Buchhaltung + Steuerberater Jahresabschluss (Schätzung)", "cost": 35},
+    {"label": "Laufendes Marketing: Flyer, Anzeigen (Schätzung)", "cost": 20},
+    {"label": "Telefon, Domain, Webseite (Schätzung)", "cost": 10},
+    {"label": "Geschäftskonto (Schätzung)", "cost": 8},
+    {"label": "Kalibrierung Prüfgerät (Schätzung ~100 €/Jahr)", "cost": 8}
+  ],
+  "startup": [
+    {"label": "Installationstester VDE 0100-600, falls nicht vorhanden (z. B. Benning IT 105 ≈ 928 €)", "cost": 930},
+    {"label": "Eintragung Handwerksrolle (Gebühr erfragen, Schätzung)", "cost": 200},
+    {"label": "Gewerbeanmeldung Willich (Schätzung)", "cost": 30},
+    {"label": "Flyer, Visitenkarten, Domain (Schätzung)", "cost": 120},
+    {"label": "Vorführ-Board mit 2 Shellys und Taster (Schätzung)", "cost": 60}
+  ],
+  "days_per_month": 4,
+  "capacity_per_day": 10,
+  "plan_per_day": 5,
+  "ramp_per_day": [2, 2, 2, 3, 4, 5, 5, 5, 4, 3, 2, 2]
+}
