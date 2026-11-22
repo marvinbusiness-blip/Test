@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Meine Rollläden gehen mit dem Schalter hoch und runter, seit zwanzig Jahren, und das reicht mir. Wozu soll ich dafür jetzt eine App aufs Handy laden und noch so ein WLAN-Kästchen in die Wand setzen lassen?",
+  "objection": "So ein Modul hängt am WLAN und an irgendeiner App von einer Firma, die ich nicht kenne. Wenn das Netz spinnt, ein Update kommt oder die Firma pleitegeht, habe ich ein Ding in der Wand, das ich nicht mehr verstehe. Und wenn ich wirklich was am Rollladen machen lasse, frage ich meinen Elektriker, den kenne ich.",
+  "would_change_my_mind": "Wenn das Modul ganz ohne App, Cloud und Internet nur mit einer festen Zeitschaltung läuft, sodass die Rollläden morgens und abends von allein fahren, wenn ich im Urlaub bin.",
+  "price_too_cheap": 40,
+  "price_cheap": 70,
+  "price_expensive": 110,
+  "price_too_expensive": 150
+}

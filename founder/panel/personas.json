@@ -1,0 +1,222 @@
+[
+ {
+  "id": "P001",
+  "name": "Malik",
+  "age": 66,
+  "segment": "Berufstätige Familie im eigenen Haus (Einkommen in Euro)",
+  "income": 63000,
+  "behaviour": "Hört auf Empfehlungen",
+  "behaviour_how": "Kauft, was Nachbarn, Freunde oder Kollegen schon haben und loben.",
+  "objection": "Was passiert, wenn so ein Modul kaputtgeht, wer kommt dann?",
+  "habit": "das Schlafzimmer im Dachgeschoss wird im Sommer unerträglich heiß"
+ },
+ {
+  "id": "P002",
+  "name": "Sienna",
+  "age": 43,
+  "segment": "Etablierte Eigentümer, Kinder aus dem Haus (Einkommen in Euro)",
+  "income": 79000,
+  "behaviour": "Komfort-Sucher",
+  "behaviour_how": "Zahlt gern dafür, dass etwas einfach funktioniert und er sich nicht kümmern muss.",
+  "objection": "Ich will nicht, dass meine Rollläden am Internet hängen.",
+  "habit": "dein Nachbar hat sich gerade sein Haus smart machen lassen"
+ },
+ {
+  "id": "P003",
+  "name": "Nia",
+  "age": 39,
+  "segment": "Etablierte Eigentümer, Kinder aus dem Haus (Einkommen in Euro)",
+  "income": 108000,
+  "behaviour": "Technik-Bastler",
+  "behaviour_how": "Macht vieles selbst oder kennt jemanden, der es für ein Bier macht.",
+  "objection": "Ich will nicht, dass meine Rollläden am Internet hängen.",
+  "habit": "du pendelst jeden Tag nach Düsseldorf und bist erst abends zu Hause"
+ },
+ {
+  "id": "P004",
+  "name": "Caleb",
+  "age": 37,
+  "segment": "Berufstätige Familie im eigenen Haus (Einkommen in Euro)",
+  "income": 108000,
+  "behaviour": "Preisvergleicher",
+  "behaviour_how": "Holt mindestens drei Angebote ein, schaut auf MyHammer und rechnet alles nach.",
+  "objection": "Ist ein kleiner neuer Ein-Mann-Betrieb erreichbar, wenn etwas ist?",
+  "habit": "du hast ein Smartphone, nutzt aber kaum Apps außer WhatsApp"
+ },
+ {
+  "id": "P005",
+  "name": "Rosa",
+  "age": 48,
+  "segment": "Berufstätige Familie im eigenen Haus (Einkommen in Euro)",
+  "income": 68000,
+  "behaviour": "Komfort-Sucher",
+  "behaviour_how": "Zahlt gern dafür, dass etwas einfach funktioniert und er sich nicht kümmern muss.",
+  "objection": "Was passiert, wenn so ein Modul kaputtgeht, wer kommt dann?",
+  "habit": "ihr fahrt zweimal im Jahr in den Urlaub und das Haus steht dann leer"
+ },
+ {
+  "id": "P006",
+  "name": "Celine",
+  "age": 47,
+  "segment": "Etablierte Eigentümer, Kinder aus dem Haus (Einkommen in Euro)",
+  "income": 130000,
+  "behaviour": "Hört auf Empfehlungen",
+  "behaviour_how": "Kauft, was Nachbarn, Freunde oder Kollegen schon haben und loben.",
+  "objection": "Die Rollläden fahren doch schon per Knopf, wozu brauche ich das?",
+  "habit": "das Schlafzimmer im Dachgeschoss wird im Sommer unerträglich heiß"
+ },
+ {
+  "id": "P007",
+  "name": "Arjun",
+  "age": 53,
+  "segment": "Etablierte Eigentümer, Kinder aus dem Haus (Einkommen in Euro)",
+  "income": 127000,
+  "behaviour": "Technik-skeptisch",
+  "behaviour_how": "Misstraut Apps, Cloud und WLAN-Geräten und will, dass alles wie früher weiter geht.",
+  "objection": "Mein Elektriker kann das sicher auch.",
+  "habit": "du hast ein Smartphone, nutzt aber kaum Apps außer WhatsApp"
+ },
+ {
+  "id": "P008",
+  "name": "Emil",
+  "age": 38,
+  "segment": "Im oder kurz vor dem Ruhestand, eigenes Haus (Einkommen in Euro)",
+  "income": 63000,
+  "behaviour": "Hat einen Stamm-Elektriker",
+  "behaviour_how": "Ruft bei allem Elektrischen den Betrieb an, den die Familie seit Jahren kennt.",
+  "objection": "Was passiert, wenn so ein Modul kaputtgeht, wer kommt dann?",
+  "habit": "du gehst jeden Abend durchs ganze Haus und lässt alle Rollläden einzeln runter"
+ },
+ {
+  "id": "P009",
+  "name": "Ivy",
+  "age": 71,
+  "segment": "Im oder kurz vor dem Ruhestand, eigenes Haus (Einkommen in Euro)",
+  "income": 57000,
+  "behaviour": "Komfort-Sucher",
+  "behaviour_how": "Zahlt gern dafür, dass etwas einfach funktioniert und er sich nicht kümmern muss.",
+  "objection": "Was ist, wenn das WLAN nicht bis zum Fenster reicht oder die App nicht mehr geht?",
+  "habit": "Treppensteigen fällt dir zunehmend schwer"
+ },
+ {
+  "id": "P010",
+  "name": "Esme",
+  "age": 36,
+  "segment": "Berufstätige Familie im eigenen Haus (Einkommen in Euro)",
+  "income": 76000,
+  "behaviour": "Hat einen Stamm-Elektriker",
+  "behaviour_how": "Ruft bei allem Elektrischen den Betrieb an, den die Familie seit Jahren kennt.",
+  "objection": "Die Rollläden fahren doch schon per Knopf, wozu brauche ich das?",
+  "habit": "Treppensteigen fällt dir zunehmend schwer"
+ },
+ {
+  "id": "P011",
+  "name": "Ruby",
+  "age": 39,
+  "segment": "Berufstätige Familie im eigenen Haus (Einkommen in Euro)",
+  "income": 87000,
+  "behaviour": "Technik-skeptisch",
+  "behaviour_how": "Misstraut Apps, Cloud und WLAN-Geräten und will, dass alles wie früher weiter geht.",
+  "objection": "Die Rollläden fahren doch schon per Knopf, wozu brauche ich das?",
+  "habit": "das Schlafzimmer im Dachgeschoss wird im Sommer unerträglich heiß"
+ },
+ {
+  "id": "P012",
+  "name": "Leah",
+  "age": 49,
+  "segment": "Im oder kurz vor dem Ruhestand, eigenes Haus (Einkommen in Euro)",
+  "income": 64000,
+  "behaviour": "Liest Bewertungen",
+  "behaviour_how": "Beauftragt niemanden ohne gute Google-Bewertungen und Referenzen.",
+  "objection": "Was passiert, wenn so ein Modul kaputtgeht, wer kommt dann?",
+  "habit": "das Schlafzimmer im Dachgeschoss wird im Sommer unerträglich heiß"
+ },
+ {
+  "id": "P013",
+  "name": "Ezra",
+  "age": 57,
+  "segment": "Etablierte Eigentümer, Kinder aus dem Haus (Einkommen in Euro)",
+  "income": 93000,
+  "behaviour": "Preisvergleicher",
+  "behaviour_how": "Holt mindestens drei Angebote ein, schaut auf MyHammer und rechnet alles nach.",
+  "objection": "Mein Elektriker kann das sicher auch.",
+  "habit": "Treppensteigen fällt dir zunehmend schwer"
+ },
+ {
+  "id": "P014",
+  "name": "Wes",
+  "age": 62,
+  "segment": "Eigentümer einer Wohnung mit elektrischen Rollläden (Einkommen in Euro)",
+  "income": 62000,
+  "behaviour": "Liest Bewertungen",
+  "behaviour_how": "Beauftragt niemanden ohne gute Google-Bewertungen und Referenzen.",
+  "objection": "Ist ein kleiner neuer Ein-Mann-Betrieb erreichbar, wenn etwas ist?",
+  "habit": "du hast ein Smartphone, nutzt aber kaum Apps außer WhatsApp"
+ },
+ {
+  "id": "P015",
+  "name": "Elle",
+  "age": 71,
+  "segment": "Eigentümer einer Wohnung mit elektrischen Rollläden (Einkommen in Euro)",
+  "income": 72000,
+  "behaviour": "Komfort-Sucher",
+  "behaviour_how": "Zahlt gern dafür, dass etwas einfach funktioniert und er sich nicht kümmern muss.",
+  "objection": "Ist ein kleiner neuer Ein-Mann-Betrieb erreichbar, wenn etwas ist?",
+  "habit": "du hast ein Smartphone, nutzt aber kaum Apps außer WhatsApp"
+ },
+ {
+  "id": "P016",
+  "name": "Freya",
+  "age": 63,
+  "segment": "Im oder kurz vor dem Ruhestand, eigenes Haus (Einkommen in Euro)",
+  "income": 59000,
+  "behaviour": "Preisvergleicher",
+  "behaviour_how": "Holt mindestens drei Angebote ein, schaut auf MyHammer und rechnet alles nach.",
+  "objection": "Bei acht Fenstern kommt da schnell ein Tausender zusammen.",
+  "habit": "du pendelst jeden Tag nach Düsseldorf und bist erst abends zu Hause"
+ },
+ {
+  "id": "P017",
+  "name": "Maya",
+  "age": 54,
+  "segment": "Berufstätige Familie im eigenen Haus (Einkommen in Euro)",
+  "income": 98000,
+  "behaviour": "Technik-skeptisch",
+  "behaviour_how": "Misstraut Apps, Cloud und WLAN-Geräten und will, dass alles wie früher weiter geht.",
+  "objection": "Was passiert, wenn so ein Modul kaputtgeht, wer kommt dann?",
+  "habit": "das Schlafzimmer im Dachgeschoss wird im Sommer unerträglich heiß"
+ },
+ {
+  "id": "P018",
+  "name": "Gabriel",
+  "age": 57,
+  "segment": "Etablierte Eigentümer, Kinder aus dem Haus (Einkommen in Euro)",
+  "income": 125000,
+  "behaviour": "Technik-Bastler",
+  "behaviour_how": "Macht vieles selbst oder kennt jemanden, der es für ein Bier macht.",
+  "objection": "Das kann ich selbst oder ein Bekannter macht das günstiger.",
+  "habit": "dein Nachbar hat sich gerade sein Haus smart machen lassen"
+ },
+ {
+  "id": "P019",
+  "name": "Jonah",
+  "age": 61,
+  "segment": "Im oder kurz vor dem Ruhestand, eigenes Haus (Einkommen in Euro)",
+  "income": 55000,
+  "behaviour": "Hört auf Empfehlungen",
+  "behaviour_how": "Kauft, was Nachbarn, Freunde oder Kollegen schon haben und loben.",
+  "objection": "Das kann ich selbst oder ein Bekannter macht das günstiger.",
+  "habit": "das Schlafzimmer im Dachgeschoss wird im Sommer unerträglich heiß"
+ },
+ {
+  "id": "P020",
+  "name": "Rafael",
+  "age": 48,
+  "segment": "Berufstätige Familie im eigenen Haus (Einkommen in Euro)",
+  "income": 80000,
+  "behaviour": "Preisvergleicher",
+  "behaviour_how": "Holt mindestens drei Angebote ein, schaut auf MyHammer und rechnet alles nach.",
+  "objection": "Das kann ich selbst oder ein Bekannter macht das günstiger.",
+  "habit": "ihr fahrt zweimal im Jahr in den Urlaub und das Haus steht dann leer"
+ }
+]

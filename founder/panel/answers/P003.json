@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "So ein Shelly kostet um die 25 Euro, und mein Schwager ist Elektriker, der setzt mir die an einem Samstag für ein Bier und ein Grillwürstchen rein. Für acht Rollläden fast 1.000 Euro zu zahlen, nur damit jemand die App einrichtet, sehe ich nicht ein.",
+  "objection": "Ich will nicht, dass meine Rollläden am Internet hängen. Da steht 'Shelly-App', also läuft das über deren Cloud, und davon steht nichts drin, ob das auch lokal ohne Internet geht.",
+  "would_change_my_mind": "Wenn mein Schwager keine Zeit hätte und das Angebot ausdrücklich eine rein lokale Einrichtung ohne Cloud (z. B. mit Home Assistant) zu einem Paketpreis unter 70 Euro pro Rollladen enthielte.",
+  "price_too_cheap": 35,
+  "price_cheap": 55,
+  "price_expensive": 80,
+  "price_too_expensive": 105
+}

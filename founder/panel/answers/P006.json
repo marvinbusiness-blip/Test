@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Das mit dem heißen Dachgeschoss nervt mich jeden Sommer, und ein Zeitplan wäre da vielleicht sogar sinnvoll. Aber einen ganz neuen Betrieb, den keiner meiner Nachbarn oder Bekannten kennt, lasse ich nicht an alle meine Schalterdosen, schon gar nicht jetzt im November, wo die Hitze weit weg ist.",
+  "objection": "Die Rollläden fahren doch schon per Knopf. Bei acht, zehn Rollläden bin ich schnell bei über tausend Euro für etwas, das ich bisher nicht vermisst habe, und von einem Betrieb, über den mir noch niemand etwas erzählt hat.",
+  "would_change_my_mind": "Wenn eine Nachbarin oder ein Kollege das schon hat, mir die Zeitpläne am Handy zeigt und sagt, dass das Schlafzimmer im Sommer spürbar kühler bleibt und der Handwerker ordentlich gearbeitet hat.",
+  "price_too_cheap": 40,
+  "price_cheap": 70,
+  "price_expensive": 130,
+  "price_too_expensive": 180
+}

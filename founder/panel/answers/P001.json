@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Für das heiße Schlafzimmer oben wäre das mit dem Zeitplan schon praktisch, und 119 € klingt fair. Aber das ist ein ganz neuer Betrieb, den keiner in meiner Straße kennt, und ich lasse niemanden an meine Elektrik, den mir nicht einer empfohlen hat. Außerdem ist jetzt November, das Thema drängt erst wieder im Sommer.",
+  "objection": "Was ist, wenn so ein Modul nach einem Jahr kaputtgeht? Die 30 Tage Hilfe sind schnell vorbei, und ob es den neuen Betrieb in zwei Jahren noch gibt und dann einer kommt, steht da nirgends.",
+  "would_change_my_mind": "Wenn ein Nachbar oder Bekannter das schon hat und sagt, dass es läuft und der Mann zuverlässig ist, dazu eine klare Zusage, dass er bei einem defekten Modul auch nach Jahren noch kommt.",
+  "price_too_cheap": 50,
+  "price_cheap": 89,
+  "price_expensive": 149,
+  "price_too_expensive": 199
+}
