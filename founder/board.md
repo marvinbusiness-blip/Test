@@ -34,7 +34,7 @@ Memos: `board/offers.md`, `board/monopoly.md`, `board/product.md` · Grundlage: 
 - [ ] Klären, wie er sich werblich nennen darf (nicht „Meister“). *(Offers; zu prüfen)*
 
 **Beweis vor dem Marketing**
-- [ ] **Lücke lokal prüfen:** Bei Elektro Lücke, Michiels und Alboush einen Auftrag über 4 Rollläden in Willich anfragen. Nehmen sie ihn an, wie schnell, zu welchem Preis? *(Monopoly)*
+- [~] **Lücke lokal prüfen:** Bei Elektro Lücke, Michiels und Alboush einen Auftrag über 4 Rollläden in Willich anfragen. Nehmen sie ihn an, wie schnell, zu welchem Preis? *(Monopoly)* → **Echtes Zwischenergebnis:** 4 Anfragen, 1 Antwort (Bitte um Fotos), 3 ohne Antwort. Preis und Antwortdauer noch offen (siehe `launch.md`, Test A).
 - [ ] **Kauftest mit Nicht-Technikern:** Wer kauft, zu welchem Preis, welche Einwände kommen? Welche Gruppe hat echten Schmerz (Senioren, Dachgeschoss mit Hitze, Berufstätige mit Urlaubsmodus)? *(Offers; `/founder-consumer`)*
 - [ ] **Testlauf mit vorab festgelegtem Ziel:** Shelly-Installateur-Karte und eine Seite mit Festpreis. Wie viele echte Anfragen kommen im festgelegten Zeitraum? Das Ziel leitet sich aus dem Break-even ab. Kein Beleg heißt PASS. *(Monopoly; `/founder-cfo`, `/founder-marketing`)*
 - [ ] **Kaufen echte Kunden nur unter dem Median, heißt das PASS.** *(Offers; `/founder-pricing`)*

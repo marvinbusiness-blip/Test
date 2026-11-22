@@ -103,7 +103,7 @@ Memos: `board/offers.md`, `board/monopoly.md`, `board/product.md` · Grundlage: 
 - [ ] Klären, wie er sich werblich nennen darf (nicht „Meister“). *(Offers; zu prüfen)*
 
 **Beweis vor dem Marketing**
-- [ ] **Lücke lokal prüfen:** Bei Elektro Lücke, Michiels und Alboush einen Auftrag über 4 Rollläden in Willich anfragen. Nehmen sie ihn an, wie schnell, zu welchem Preis? *(Monopoly)*
+- [~] **Lücke lokal prüfen:** Bei Elektro Lücke, Michiels und Alboush einen Auftrag über 4 Rollläden in Willich anfragen. Nehmen sie ihn an, wie schnell, zu welchem Preis? *(Monopoly)* → **Echtes Zwischenergebnis:** 4 Anfragen, 1 Antwort (Bitte um Fotos), 3 ohne Antwort. Preis und Antwortdauer noch offen (siehe `launch.md`, Test A).
 - [ ] **Kauftest mit Nicht-Technikern:** Wer kauft, zu welchem Preis, welche Einwände kommen? Welche Gruppe hat echten Schmerz (Senioren, Dachgeschoss mit Hitze, Berufstätige mit Urlaubsmodus)? *(Offers; `/founder-consumer`)*
 - [ ] **Testlauf mit vorab festgelegtem Ziel:** Shelly-Installateur-Karte und eine Seite mit Festpreis. Wie viele echte Anfragen kommen im festgelegten Zeitraum? Das Ziel leitet sich aus dem Break-even ab. Kein Beleg heißt PASS. *(Monopoly; `/founder-cfo`, `/founder-marketing`)*
 - [ ] **Kaufen echte Kunden nur unter dem Median, heißt das PASS.** *(Offers; `/founder-pricing`)*
@@ -232,6 +232,14 @@ Belege dafür:
 2. **Elektro Lücke und andere Willicher Betriebe** könnten jederzeit „Shelly-Rollläden zum Festpreis“ bewerben. Sie haben schon Kunden und Bewertungen (Lücke: Google 4,5 aus 32). Laut den Foren lohnen sich Kleinaufträge für sie aber kaum. Das ist der Grund, warum es die Lücke gibt.
 3. **Shelly-Installateur-Karte:** Jeder Betrieb, der sich dort registriert, wird für Kunden in Willich sichtbar. Umgekehrt ist das ein günstiger Vertriebsweg für den Gründer selbst (Sichtbarkeit, Schulung, 10 % Cashback, [Quelle](https://www.shelly.com/de/blogs/media-center/shelly-installer-portal-attraktive-vorteile-fur-installateure)).
 4. **Selbermacher:** Das Gerät kostet 16 bis 20 €. Technikaffine Kunden und deren Bekannte sind keine Zielgruppe. Die Zielgruppe ist, wer ausdrücklich nicht selbst an 230 V will.
+
+### 7. Echter Test: Probeanfragen bei lokalen Betrieben
+
+Der Gründer hat **4 Anfragen** an lokale Betriebe gestellt (Elektro Lücke u. a.), jeweils für eine Rollladen-Nachrüstung mit Shelly.
+- **1 Betrieb** hat geantwortet und um **Fotos** gebeten. Das ist derselbe Vorab-Check, den auch der eigene Ablauf vorsieht (`ops.md`, R1). Ein Preis liegt noch nicht vor.
+- **3 Betriebe** haben (noch) **nicht geantwortet**.
+
+Das ist der erste **lokale, echte** Beleg für Abschnitt 4.1 („Elektriker lehnen kleine Shelly-Aufträge ab oder melden sich nicht“). Bisher stützte sich das nur auf bundesweite Foren von 2021–2023. Die Stichprobe ist klein. Ob die drei noch antworten und was der vierte verlangt, steht aus.
 
 ### Für die nächsten Skills
 
@@ -680,6 +688,8 @@ Gegen Geld darfst du erst arbeiten, wenn du in der Handwerksrolle eingetragen bi
 | **A** | **3 Probeanfragen** bei Elektro Lücke, Elektro Michiels, Alboush: „4 Rollläden mit Shelly nachrüsten, Willich“ | KW 48–50 (bis 11.12.2026) | 0 € | Mindestens **2 von 3** antworten langsamer als 5 Werktage, lehnen ab oder liegen über 119 €/Rollladen. Dann ist die Lücke lokal belegt | Alle drei antworten schnell und günstig: Die Lücke ist nicht da. Zurück zu `/founder-offer`. Differenzieren kannst du dann nur über Erlebnis und Garantie |
 | **B** | **Interessenliste im eigenen Umfeld** (persönlich, keine öffentliche Werbung): 15 Gespräche mit Leuten mit elektrischen Rollläden. Paket und Preis zeigen, fragen „Würdest du ab März zum Referenzpreis von 95 € buchen?“ | Dezember–Januar | 0 € | Mindestens **5 verbindliche Zusagen** mit Fotos der Schalterdose | Unter 3 Zusagen: Einwände sammeln, Angebot und Preis mit `/founder-offer` bzw. `/founder-pricing` überarbeiten, bevor Geld ausgegeben wird |
 | **C** | **5 bezahlte Referenzaufträge** zu 95 €/Rollladen (≥4 Rollläden je Auftrag), danach **Testlauf mit Fremden** zum Listenpreis 119 € | März–April 2027, Testlauf Mai–Juni | Material (wird vom Kunden bezahlt) | Referenz: **5 Aufträge in 8 Wochen**, **5 Google-Bewertungen**, keine unbezahlte Rückfahrt. Testlauf: **mindestens 2 echte Anfragen von Fremden pro Monat** (Shelly-Karte, Google, Flyer, Empfehlung) | Weniger als 2 Anfragen von Fremden in 8 Wochen: Die Lücke ist nicht belegt (Bedingung aus `board.md`). Kanal oder Angebot ändern oder als reines Empfehlungsgeschäft klein halten |
+
+**Ergebnis Test A (echt, vom Gründer gemeldet):** **4 Anfragen** an lokale Betriebe gestellt (Elektro Lücke u. a.). **1 Antwort** mit der Bitte um Fotos, **3 ohne Antwort**. Noch offen: Datum der Anfragen (sind schon 5 Werktage vergangen?) und der Preis des antwortenden Betriebs. Nächster Schritt: dem antwortenden Betrieb Fotos schicken und Preis sowie Termin notieren. **Vorläufige Bewertung:** Die Erfolgslinie (≥2 langsam/keine Antwort) ist erreicht, sobald 5 Werktage ohne Antwort vergangen sind.
 
 **Vergleich mit dem Panel:** Simuliert haben 0 von 20 kalt gekauft. Kommen bei Stufe C echte Anfragen von Fremden, ist das Panel zu pessimistisch. Dann gilt, was echte Käufer tun. Kommen keine, bestätigt das Panel: Ohne Empfehlungen läuft es nicht.
 

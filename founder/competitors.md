@@ -99,6 +99,14 @@ Belege dafür:
 3. **Shelly-Installateur-Karte:** Jeder Betrieb, der sich dort registriert, wird für Kunden in Willich sichtbar. Umgekehrt ist das ein günstiger Vertriebsweg für den Gründer selbst (Sichtbarkeit, Schulung, 10 % Cashback, [Quelle](https://www.shelly.com/de/blogs/media-center/shelly-installer-portal-attraktive-vorteile-fur-installateure)).
 4. **Selbermacher:** Das Gerät kostet 16 bis 20 €. Technikaffine Kunden und deren Bekannte sind keine Zielgruppe. Die Zielgruppe ist, wer ausdrücklich nicht selbst an 230 V will.
 
+## 7. Echter Test: Probeanfragen bei lokalen Betrieben
+
+Der Gründer hat **4 Anfragen** an lokale Betriebe gestellt (Elektro Lücke u. a.), jeweils für eine Rollladen-Nachrüstung mit Shelly.
+- **1 Betrieb** hat geantwortet und um **Fotos** gebeten. Das ist derselbe Vorab-Check, den auch der eigene Ablauf vorsieht (`ops.md`, R1). Ein Preis liegt noch nicht vor.
+- **3 Betriebe** haben (noch) **nicht geantwortet**.
+
+Das ist der erste **lokale, echte** Beleg für Abschnitt 4.1 („Elektriker lehnen kleine Shelly-Aufträge ab oder melden sich nicht“). Bisher stützte sich das nur auf bundesweite Foren von 2021–2023. Die Stichprobe ist klein. Ob die drei noch antworten und was der vierte verlangt, steht aus.
+
 ## Für die nächsten Skills
 
 - `/founder-consumer`: Einwände testen: „Mein Elektriker macht das auch“, „Kann ich selbst / mein Schwager macht das“, „Was, wenn das WLAN nicht reicht?“, „Was, wenn Shelly kaputtgeht?“, „Lohnt sich das für nur 3 Rollläden?“
