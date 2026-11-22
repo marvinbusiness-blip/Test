@@ -1,0 +1,7 @@
+# Smart-Home-Nachrüstung Willich (Arbeitstitel)
+
+- What it is: Bestehende elektrische Rollläden (später auch Licht/Steckdosen) per Shelly-Unterputzmodul hinter dem vorhandenen Schalter smart machen – Einbau, WLAN- und App-Einrichtung, Zeitpläne, optional Einbindung in Apple Home o. Ä., plus Einweisung.
+- Who it is for: Besitzer bzw. Bewohner von Einfamilienhäusern, Reihenhäusern und Wohnungen in Willich und Umgebung, die bereits elektrische Rollläden haben (typisch mehrere Rollläden pro Haushalt, z. B. 5–12) und diese per Handy/Zeitplan steuern wollen.
+- What it sells, at what price: Einbau + Einrichtung von Shelly-Modulen, Kunde bekommt die kostenlose Shelly-App. Preis noch offen. Einziger Referenzpunkt: Ein Elektriker hat bei einem Bekannten für 12 Shellys hinter Rollläden inkl. Einbau und Einrichtung 1.400 € berechnet.
+- Where and how: Vor Ort beim Kunden, Willich und Umkreis. Kundengewinnung zunächst über Mundpropaganda, ggf. kleine Webseite und Handwerkerportale (z. B. MyHammer).
+- Budget and constraints: Nebenberuflich neben einem Vollzeitjob. Gründer hat einen Bachelor of Engineering (Elektro) und nach eigener Aussage die Qualifikation, ein Elektro-Gewerbe zu führen; Werkzeug ist vorhanden; Startbudget unkritisch. Bei Rollläden schon praktisch ausprobiert, funktioniert gut, Gründer ist mit Shelly zufrieden. Start bewusst eng: nur Rollläden (evtl. Steckdosen). Ziel jetzt: herausfinden, ob die Idee trägt.
