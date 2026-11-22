@@ -2,7 +2,7 @@
 
 > Das Tool schreibt „$“, gemeint ist überall **€**. „Rollladens a day“ heißt hier **Rollläden pro Einsatztag**, gerechnet mit **4 Einsatztagen im Monat** (z. B. Samstage oder Abende). Keine Steuer-, Rechts- oder Finanzberatung: Bitte lass Rechtsform, Umsatzsteuer-Status und Einkommensteuer von einem Steuerberater prüfen, bevor Geld fließt.
 
-**Die Marge.** Jeder Rollladen à 119 € lässt **87,30 € Deckungsbeitrag** (73 %). Abgezogen sind Shelly, Kleinmaterial, Garantie-Rücklage, Fahrt und Empfehlungsbonus. Die Fixkosten sind mit **114 €/Monat** klein. Break-even liegt deshalb bei nur **≈1,3 Rollläden pro Monat** (114 € ÷ 87,30 €). Im Plan bleiben **69 %** jedes Umsatzes als Gewinn, vor Einkommensteuer. Jahr 1 im Basisplan: **156 Rollläden (~31 Aufträge), 18.564 € Umsatz, 12.251 € Gewinn**, nach den Startkosten 10.911 €.
+**Die Marge.** Jeder Rollladen à 119 € lässt **87,30 € Deckungsbeitrag** (73 %). Abgezogen sind Shelly, Kleinmaterial, Garantie-Rücklage, Fahrt und Empfehlungsbonus. Die Fixkosten sind mit **114 €/Monat** klein. Break-even liegt deshalb bei nur **≈1,3 Rollläden pro Monat** (114 € ÷ 87,30 €). Im Plan bleiben **69 %** jedes Umsatzes als Gewinn, vor Einkommensteuer. Jahr 1 im Basisplan: **156 Rollläden (~31 Aufträge), 18.564 € Umsatz, 12.251 € Gewinn**, nach den Startkosten 10.915 €.
 
 **Die Zeile, die man beobachten muss: die Auftragsmenge.** Der Preis ist es nicht.
 
@@ -18,7 +18,7 @@
 
 Selbst bei einem Viertel der geplanten Menge entsteht kein Verlust. Das Risiko dieses Geschäfts ist also nicht, Geld zu verlieren, sondern dass sich die Zeit kaum lohnt. Das Panel hat kalt 0 von 20 Käufen ergeben. Die Menge hängt deshalb fast ganz an Empfehlungen und Referenzen. Die Rampe unten ist eine **Schätzung** und nicht belegt.
 
-**Cash.** Vor dem ersten Euro Umsatz brauchst du etwa **1.340 €**. 930 € davon sind ein VDE-Installationstester, **falls du noch keinen hast**. Ohne ihn sind es etwa 410 €. Im Basisplan ist das Geld im **3. Monat** wieder drin, bei halber Menge im 5. Monat.
+**Cash.** Vor dem ersten Euro Umsatz brauchst du etwa **1.336 €**. 930 € davon sind ein VDE-Installationstester, **falls du noch keinen hast**. Ohne ihn sind es etwa 406 €. Im Basisplan ist das Geld im **3. Monat** wieder drin, bei halber Menge im 5. Monat.
 
 **Dein Stundenlohn (Überschlag, nicht aus dem Tool):** 156 Rollläden × 25 min plus 31 Aufträge × 90 min ≈ **112 Stunden im Jahr**. Das sind etwa 2 bis 3 Stunden pro Woche, in Spitzenmonaten rund 14 Stunden pro Monat. 12.251 € ÷ 112 h ≈ **110 €/h vor Einkommensteuer**. Die Zeiten sind Annahmen und müssen bei den ersten Aufträgen gemessen werden.
 
@@ -65,25 +65,25 @@ Fixed costs: $114 a month (Betriebshaftpflicht Elektro (Schätzung 400 €/Jahr,
 
 ## Year 1, month by month
 
-| month | Rollladens a day | revenue | profit | cumulative (after $1,340 startup) |
+| month | Rollladens a day | revenue | profit | cumulative (after $1,336 startup) |
 | ---: | ---: | ---: | ---: | ---: |
-| 1 | 2 | $952 | $584 | -$756 |
-| 2 | 2 | $952 | $584 | -$171 |
-| 3 | 2 | $952 | $584 | $413 |
-| 4 | 3 | $1,428 | $934 | $1,347 |
-| 5 | 4 | $1,904 | $1,283 | $2,630 |
-| 6 | 5 | $2,380 | $1,632 | $4,262 |
-| 7 | 5 | $2,380 | $1,632 | $5,894 |
-| 8 | 5 | $2,380 | $1,632 | $7,526 |
-| 9 | 4 | $1,904 | $1,283 | $8,808 |
-| 10 | 3 | $1,428 | $934 | $9,742 |
-| 11 | 2 | $952 | $584 | $10,326 |
-| 12 | 2 | $952 | $584 | $10,911 |
+| 1 | 2 | $952 | $584 | -$752 |
+| 2 | 2 | $952 | $584 | -$167 |
+| 3 | 2 | $952 | $584 | $417 |
+| 4 | 3 | $1,428 | $934 | $1,351 |
+| 5 | 4 | $1,904 | $1,283 | $2,634 |
+| 6 | 5 | $2,380 | $1,632 | $4,266 |
+| 7 | 5 | $2,380 | $1,632 | $5,898 |
+| 8 | 5 | $2,380 | $1,632 | $7,530 |
+| 9 | 4 | $1,904 | $1,283 | $8,812 |
+| 10 | 3 | $1,428 | $934 | $9,746 |
+| 11 | 2 | $952 | $584 | $10,330 |
+| 12 | 2 | $952 | $584 | $10,915 |
 
 - **Year 1 operating profit: $12,251** on $18,564 of revenue.
-- After the $1,340 startup spend: $10,911.
+- After the $1,336 startup spend: $10,915.
 - Startup money earned back: month 3.
-- Cash you need before it pays for itself: **$1,340**.
+- Cash you need before it pays for itself: **$1,336**.
 
 ## What if
 
