@@ -10,6 +10,8 @@
 
 Memos im Detail: `board/offers.md`, `board/monopoly.md`, `board/product.md`
 
+> **Update nach dem Board:** Das größte gemeinsame Risiko (Risiko 1) ist weitgehend ausgeräumt. Die Handwerkskammer Düsseldorf hat schriftlich bestätigt, dass der Bachelor Elektrotechnik nach Abschluss zur Eintragung in die Handwerksrolle und zum vollen Elektrotechniker-Handwerk berechtigt. Offen sind noch: Abschluss und tatsächliche Eintragung, Installateurverzeichnis beim Netzbetreiber, Betriebshaftpflicht. Damit rücken Risiko 2 (austauschbare Leistung) und 3 (Kundenzugang) nach vorn.
+
 ## Risiken, die mehrere Mitglieder genannt haben (zuerst)
 
 1. **Rechtsgrundlage für Arbeiten an 230 V – alle drei.** Arbeiten an der festen Elektroinstallation sind nach allgemeinem Kenntnisstand in Deutschland zulassungspflichtiges Handwerk (Handwerksrolle) und erfordern meist die Eintragung ins Installateurverzeichnis des Netzbetreibers. Ob der B.Eng. (je nach Fachrichtung) dafür reicht und ob ein „Ingenieurbüro“ das abdeckt, ist **ungeprüft**. Ohne Berechtigung, Betriebshaftpflicht und Dokumentation kann ein einziger Schaden das Geschäft beenden. *Keine Rechtsauskunft – bei Handwerkskammer und Netzbetreiber klären.*
@@ -25,7 +27,9 @@ Memos im Detail: `board/offers.md`, `board/monopoly.md`, `board/product.md`
 
 ## Bedingungen – Checkliste für die nächsten Skills
 
-- [ ] **Berechtigung schriftlich klären,** bevor der erste bezahlte Auftrag läuft: Handwerkskammer (Handwerksrolle, reicht der Abschluss?), Netzbetreiber (Installateurverzeichnis), Betriebshaftpflicht für Elektroarbeiten. Fällt das negativ aus → PASS. *(alle drei; `/founder-ops`)*
+- [x] **Handwerkskammer: reicht der Abschluss?** Ja. Schriftliche Antwort der Handwerkskammer Düsseldorf: Der Bachelor-Abschluss Elektrotechnik gilt als gleichwertig zur Meisterprüfung. Nach Abschluss ist die Eintragung in die Handwerksrolle möglich, danach darf das **volle Elektrotechniker-Handwerk** angeboten werden. (Zusätzlich vorhanden: Ausbildung Elektroniker für Geräte und Systeme.)
+- [ ] **Bachelor abschließen und in die Handwerksrolle eintragen lassen,** bevor der erste bezahlte Auftrag läuft. Kostenfreie Beratung der Handwerkskammer nutzen (Kosten, Ablauf, Nebenerwerb). *(`/founder-ops`)*
+- [ ] **Netzbetreiber (Installateurverzeichnis) und Betriebshaftpflicht für Elektroarbeiten klären.** Hat die Handwerkskammer nicht beantwortet; noch offen. *(`/founder-ops`, `/founder-cfo`)*
 - [ ] **Wettbewerb und Lücke belegen:** Wer bietet das in Willich und Umkreis an, zu welchem Preis? Lehnen Betriebe solche Kleinaufträge ab oder übernehmen die App-Einrichtung nicht? *(Monopoly, Offers; `/founder-competitors`)*
 - [ ] **Startkunde mit echtem Schmerz finden** und testen, ob er kauft. *(Offers; `/founder-consumer`)*
 - [ ] **Preis nicht unter dem Anker,** als Festpreis pro Haus/Paket statt pro Modul. *(Offers; `/founder-pricing`)*
