@@ -1,30 +1,32 @@
 # Product lens
-Score: 5 | Vote: FUND IF
+Score: 6 | Vote: FUND IF
+Veränderung zu Runde 1: 5 → 6, weil die Berechtigung laut Schreiben der Handwerkskammer nur noch eine Frage des Zeitpunkts ist und die Recherche zeigt, dass die Lücke im Erlebnis liegt (Antwort, Festpreis, Übergabe). Genau dieses Erlebnis passt aber schlecht zu einem Nebenerwerb.
+
 ## What is strong
 
-- **Klarer Fokus.** Nur Häuser mit vorhandenen elektrischen Rollläden, nur Rollläden. Das Produkt passt in einen Satz: „Ihre vorhandenen Rollläden fahren von selbst – ohne Umbau, ohne Dreck, an einem Termin.“
-- **Der Nutzen ist greifbar.** Morgens hoch, abends runter, im Urlaub auch. Das muss niemand erklären.
-- **Wenig Umstellung.** Der Wandschalter bleibt (bei üblicher Verdrahtung, zu prüfen). Der Einbau wurde selbst ausprobiert.
+- **Das Produkt passt in einen Satz:** „Festpreis pro Rollladen, ein Termin, fertig eingerichtet übergeben, auch bei nur drei Rollläden.“ Nur Rollläden, nur Bestandsmotoren.
+- **Der Teil, den niemand sieht, ist jetzt gedeckt.** Ausbildung zum Elektroniker, dazu der Bachelor, den die Handwerkskammer als gleichwertig zum Meister anerkennt. Die 230-V-Arbeit hinter dem Schalter macht also eine qualifizierte Hand. Wo andere Elektriker Shelly wegen der Gewährleistung meiden (2 Threads, dünn), kann er Shelly bewusst als Kernprodukt anbieten.
+- **Die Lücke liegt im Erlebnis, nicht in der Technik.** Kunden bemängeln, dass niemand antwortet, es keinen Festpreis gibt und vor Ort niemand erklärt. Das gestaltet jemand mit Sorgfalt besser als Betriebe, für die es Kleinkram ist. Vorbehalt: dünne Belege (5 Threads, meist 2021–2023, bundesweit).
 
 ## What would kill it (the top 3, most dangerous first)
 
-1. **Der unsichtbare Teil: 230 V hinter dem Schalter.** Die Product lens fragt nach der Qualität dort, wo niemand hinsieht, hier also der festen Elektroinstallation. Nach allgemeinem Wissen (zu prüfen, keine Rechtsauskunft) ist Elektrotechnik ein zulassungspflichtiges Handwerk. Arbeit an der Kundenanlage verlangt in der Regel Handwerksrolle und Eintragung beim Netzbetreiber, ein „Ingenieurbüro“ deckt sie vermutlich nicht ab. Ob der B.Eng. reicht, hängt von der Fachrichtung ab und gehört zur Handwerkskammer. Ohne Berechtigung, Haftpflicht und Dokumentation beendet ein einziger Schmorschaden das Geschäft.
-2. **Die Nahtstellen nach der Übergabe gehören anderen.** Der Alltag des Kunden läuft über sein WLAN, Shelly-App und -Cloud, Firmware-Updates, vielleicht Apple Home. Nichts davon kontrolliert das Geschäft. Neuer Router oder ein Update, und der Rollladen fährt nicht. Der Kunde ruft an, während der Gründer im Hauptjob ist. Bei Mundpropaganda als einzigem Kanal arbeitet jeder ungelöste Störfall direkt gegen die Kundengewinnung.
-3. **Die ersten fünf Minuten an der Schalterdose.** Typische Gründe, warum es vor Ort nicht passt (zu prüfen): kein Neutralleiter, zu flache Dose, Funkmotoren ohne Wandschalter, schwaches WLAN an der Außenwand. Jeder verlorene Abend- oder Samstagstermin ist im Nebenerwerb teuer. Wie oft das vorkommt, weiß niemand.
+1. **Das Kernversprechen ist Verfügbarkeit, und genau die fehlt im Nebenerwerb.** Die ersten fünf Minuten liegen jetzt vor dem Schraubendreher: Anfrage, Antwort, Termin. Antwortet er nach vier Tagen mit einem Termin in fünf Wochen, ist er nur ein weiterer Elektriker, der sich nicht meldet, und die Lücke ist weg.
+2. **Was nach der Übergabe passiert, liegt weiter bei anderen.** WLAN, Shelly-Cloud, Firmware und Apple Home kontrolliert er nicht. Mit einer Funktionsgarantie haftet er praktisch für deren Ausfälle, und die Anrufe kommen während des Hauptjobs. Wie viel Support anfällt, weiß niemand (`/founder-cfo`, `/founder-ops`).
+3. **Abbruch an der Schalterdose.** Es fehlt der Neutralleiter (laut Recherche eine häufige Ursache), die Dose ist zu flach oder das WLAN reicht nicht. Jede abgebrochene Anfahrt bricht den Festpreis oder kostet einen Abend. Die Quote ist unbekannt.
 
 ## The questions I would ask the founder
 
-- Wie heißt das Produkt in einem Satz? Und warum wählt der Kunde es statt eines Elektrikers, der dasselbe macht (Referenz: 12 Shellys für 1.400 €)?
-- Was hat die Handwerkskammer schriftlich gesagt? Welche Fachrichtung hat der Abschluss?
-- Was hat der Kunde in der Hand, wenn du gehst? Auf wen läuft das App-Konto, wo stehen die Zugangsdaten, welches Modul sitzt hinter welchem Schalter?
-- Wer reagiert und wie schnell, wenn dienstags um 7 Uhr ein Rollladen nicht hochfährt?
-- Woran erkennst du vor der Anfahrt, ob es passt?
-- Was streichst du? „Andere Systeme“, Licht und Steckdosen vergrößern die Störfläche.
-- Offen und nicht zu raten: Preis (`/founder-pricing`, `/founder-competitors`), ob Kunden kaufen (`/founder-consumer`), Zeit pro Rollladen und Kosten pro Auftrag (`/founder-cfo`), Marktgröße in Willich (unbekannt).
+- Wie schnell antwortest du auf eine Anfrage, und wie viele Termine pro Woche kannst du neben dem Job ehrlich anbieten?
+- Was genau garantierst du, wie lange, und was kostet dich ein Garantiefall? (`/founder-offer`, `/founder-cfo`)
+- Auf wen läuft das App-Konto, und was hat der Kunde in der Hand, wenn du gehst?
+- Woran erkennst du vor der Anfahrt, ob es passt? Wie viele deiner eigenen Einbauten haben auf Anhieb geklappt?
+- Warum stehen Apple Home und „andere Systeme“ im Angebot? Was streichst du?
+- Wann sind Bachelor, Handwerksrolle und Haftpflicht erledigt? Installateurverzeichnis: beim Netzbetreiber klären (zu prüfen).
+- Offen, nicht raten: Preis und Kaufbereitschaft (`/founder-consumer`, `/founder-pricing`), Zeit pro Rollladen (`/founder-cfo`), Abbruchquote vor Ort (`/founder-ops`), Marktgröße in Willich (unbekannt).
 
 ## If FUND IF: the conditions
 
-1. **Berechtigung vor dem ersten bezahlten Auftrag:** schriftlich von Handwerkskammer und Netzbetreiber, dazu eine Betriebshaftpflicht für Elektroarbeiten.
-2. **Ein Standardpaket:** nur Rollläden, eine feste Plattform-Konfiguration. Alles andere erst, wenn das Kernpaket ohne Störfälle läuft.
-3. **Die Übergabe als Teil des Produkts:** Vorab-Check per Foto (Dose, Neutralleiter, Motortyp, WLAN), Übergabeblatt pro Haushalt, ein Service-Versprechen, das ein Nebenerwerb halten kann.
-4. **Fünf bis zehn Testinstallationen zu einem echten Preis.** Zeit, Fehlschläge und Rückrufe messen, die Ergebnisse gehen an `/founder-cfo`.
+1. **Rechtlich sauber vor dem ersten bezahlten Auftrag:** Eintrag in die Handwerksrolle, Betriebshaftpflicht, Antwort des Netzbetreibers schriftlich.
+2. **Ein Produkt:** nur Rollläden, nur Shelly-App als Standard. Apple Home und andere Systeme fallen aus dem Startangebot.
+3. **Das Erlebnis gestalten, bevor geworben wird:** Festpreis öffentlich, Vorab-Check per Foto, ein Antwort- und Terminversprechen, das der Nebenerwerb tatsächlich hält, beschriftete Module, Übergabeblatt, Konto auf den Kunden und eine Garantie mit klaren Grenzen.
+4. **Fünf bis zehn Testinstallationen zu einem echten Preis.** Antwortzeit, Zeit pro Rollladen, Abbrüche und Rückrufe innerhalb von 30 Tagen messen, die Ergebnisse gehen an `/founder-cfo`.

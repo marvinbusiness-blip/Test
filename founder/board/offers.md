@@ -1,26 +1,26 @@
 # Offers lens
-Score: 4/10 | Vote: FUND IF
+Score: 5 | Vote: FUND IF
+Veränderung zu Runde 1: 4 → 5. Die Rechtsfrage ist schriftlich lösbar, und die Kundenklagen liefern echtes Material für ein Angebot. Der Markt (Schmerz, Größe, Zahlungsbereitschaft) bleibt unbelegt, der Preis ist Austauschware.
 
 ## What is strong
-- **Zeit und Aufwand für den Kunden:** Ein Termin, kein Dreck, die Rollläden laufen noch am selben Tag automatisch. Bei zwei der vier Faktoren der Wertgleichung ist das Angebot fast ideal.
-- **Kaufkraft:** Wer schon elektrische Rollläden hat, besitzt meist Wohneigentum und hat bereits Geld in das Haus gesteckt. Die Zielgruppe hat Geld.
-- **Wahrscheinlichkeit, dass es klappt:** Die Technik ist erprobt, der Gründer hat sie selbst eingebaut. Der Kunde muss nichts selbst lernen.
-- **Billig zu testen:** Material günstig, Werkzeug vorhanden, Start eng gefasst.
+- **Die Wahrscheinlichkeit steigt:** Laut Handwerkskammer gilt der Bachelor als gleichwertig zur Meisterprüfung, nach der Eintragung darf er das volle Elektrohandwerk anbieten. Mit der Ausbildung ein glaubwürdiger Kompetenzbeweis. Wie er das werblich nennen darf, ohne sich „Meister“ zu nennen: zu prüfen.
+- **Der Stack ergibt sich aus den Klagen:** „Niemand meldet sich“ → feste Antwortzeit und Termin. „Preise unklar“ → veröffentlichter Festpreis. „Gewährleistungsscheu“ → eigene Funktionsgarantie. „Klappt vor Ort nicht“ → Machbarkeitscheck per Foto der Schalterdose vorab, keine Kosten, wenn es nicht geht.
+- **Zeit und Aufwand bleiben fast ideal:** ein Termin, abends oder samstags, für Berufstätige eher ein Plus.
+- **Günstiger Kanal:** Die Shelly-Installateur-Karte bringt Sichtbarkeit bei Leuten, die schon nach Shelly suchen.
 
 ## What would kill it (the top 3, most dangerous first)
-1. **Darf das Geschäft diese Arbeit überhaupt anbieten?** Arbeiten an der festen 230-V-Installation sind in Deutschland nach meinem Allgemeinwissen zulassungspflichtiges Elektrohandwerk (Handwerksrolle). Dazu kommt meist die Eintragung ins Installateurverzeichnis des Netzbetreibers, außerdem Haftpflicht und Prüfprotokoll. Ob der B.Eng. dafür reicht, ist **zu prüfen, nicht vorauszusetzen**. Ohne diese Klärung gibt es keine Garantie und keinen Versicherungsschutz, und im Schadensfall wird es existenzbedrohend.
-2. **Austauschware, Wettbewerb über den Preis:** „Shelly hinter den Schalter“ kann jeder Elektriker. Technikaffine Kunden machen es selbst. Der einzige Preisanker liegt bei rund 117 € pro Rollladen inklusive Material (1.400 € für 12). Wer nur dasselbe etwas billiger anbietet, hat kein Angebot, sondern eine Preisliste.
-3. **Kein großer Schmerz:** Die Rollläden fahren schon per Knopfdruck. „Smart“ ist ein Komfort-Upgrade. Der Kaufauslöser ist unklar, die Marktgröße unbekannt, und mit Mundpropaganda allein findet man die Kunden nur langsam. Ob der Markt wächst, ist offen (`/founder-competitors`, `/founder-consumer`).
+1. **Austauschware zum Medianpreis.** Komplettangebote liegen bei 100–190 €, der Referenzpreis des Gründers (≈117 €) ist genau der Median. Festpreis, kleine Aufträge und Support kann jeder Elektromeister morgen versprechen. Alboush in Krefeld hat Shelly, Festpreise und einen Rollladen-Ratgeber schon. Ohne Garantie und Stack bleibt eine Preisliste.
+2. **Der belegte Schmerz gehört dem falschen Kunden.** Die fünf Threads stammen von Technikaffinen, bundesweit, meist 2021–2023, teils zu anderen Geräten. Den Titeln nach suchen sie oft nur jemanden, der ihren Shelly einbaut: das ≈20-€-Montagesegment. Ob Nicht-Techniker in Willich, die nicht an 230 V wollen, einen Schmerz haben, für den sie über dem Median zahlen, und wie viele es gibt, weiß niemand (`/founder-consumer`).
+3. **Kleinaufträge rechnen sich vielleicht auch für ihn nicht.** Die Lücke existiert, weil sich Kleinaufträge für Betriebe kaum lohnen. Neben dem Vollzeitjob, mit Anfahrt, Leerfahrten (kein Neutralleiter) und Garantiefällen kann sie zur Falle werden. Zeit pro Rollladen, Ausfallquote, Supportaufwand: unbekannt (`/founder-cfo`, `/founder-ops`).
 
 ## The questions I would ask the founder
-- Hast du **schriftlich** von der Handwerkskammer und vom Netzbetreiber, dass du mit deinem Abschluss an der festen Installation arbeiten darfst? Welche Versicherung deckt das ab?
-- Wer hat den **echten Schmerz**? Zum Beispiel Senioren, denen der Gang zu jedem Schalter schwerfällt, Dachgeschosse mit Hitzeproblem, Einbruchschutz durch Anwesenheitssimulation im Urlaub. Welche dieser Gruppen ist dein Startkunde?
-- Was bekommt der Kunde bei dir, was er beim Elektriker für 117 € pro Stück nicht bekommt? Könntest du **das Doppelte** verlangen und trotzdem die offensichtliche Wahl sein?
-- Was passiert vor Ort, wenn in der Dose kein Neutralleiter liegt, die Dose zu flach ist oder das WLAN nicht bis zum Fenster reicht? (Häufigkeit zu prüfen)
-- Welche **Garantie** gibst du, und wie hältst du Support ein, wenn tagsüber niemand erreichbar ist?
-- Wie viele Minuten pro Rollladen, und was kostet ein Kunde in der Gewinnung? (`/founder-cfo`)
+- Wer hat den echten Schmerz: Senioren, Dachgeschoss mit Hitze, Berufstätige mit Urlaubsmodus? Mit welcher Gruppe startest du?
+- Was bietest du, was ein Willicher Elektromeister nicht morgen kopiert? Könntest du deutlich über 117 € liegen und trotzdem die naheliegende Wahl sein?
+- Wann ist der Bachelor fertig, wann die Eintragung? Was sagt der Netzbetreiber zum Installateurverzeichnis? Welche Haftpflicht, ab wann?
+- Wie oft scheitert es vor Ort, und wer zahlt die Leerfahrt?
+- Ab welcher Auftragsgröße lohnt sich ein Termin? Welche Antwortzeit hältst du neben dem Job wirklich?
 
 ## If FUND IF: the conditions
-1. **Vor dem ersten bezahlten Auftrag rechtlich klären**, schriftlich: Handwerksrolle bzw. Installateurverzeichnis und Betriebshaftpflicht. Fällt die Antwort negativ aus, ist das Votum PASS.
-2. **Das Ergebnis verkaufen, nicht den Einbau:** Festpreis pro Haus statt pro Modul. Dazu fertige Szenarien (Hitzeschutz nach Sonnenstand, Urlaubsmodus, Weckroutine), Einweisung, Support für die ersten 30 Tage und eine Funktionsgarantie („läuft, oder du zahlst nicht“). Bauen mit `/founder-offer`, Preis nicht unter dem Anker mit `/founder-pricing`, Garantiekosten mit `/founder-cfo`.
-3. **Beweis vor der Ausweitung:** 3 bis 5 bezahlte Aufträge zum Zielpreis mit Kundenstimmen, erst danach Licht und Steckdosen. Parallel mit `/founder-competitors` klären, wer in Willich und Umgebung das schon zu welchem Preis anbietet.
+1. **Recht vor dem ersten bezahlten Auftrag:** Bachelor abgeschlossen, Handwerksrolle eingetragen, Installateurverzeichnis schriftlich geklärt, Betriebshaftpflicht aktiv. Scheitert eines davon, ist das Votum PASS.
+2. **Stack statt Preisliste:** Festpreis-Paket pro Haus mit Mindestauftrag statt Rabatt, Fotocheck vorab, Funktionsgarantie, fertige Szenarien, Einweisung, 30 Tage Support. Nicht unter dem Marktmedian einsteigen. Bauen mit `/founder-offer`, Preis mit `/founder-pricing`, Garantiekosten mit `/founder-cfo`.
+3. **Beweis beim richtigen Kunden:** zuerst ein Kauftest mit Nicht-Technikern (`/founder-consumer`), dann 3–5 bezahlte Aufträge zum Zielpreis mit Kundenstimmen. Kaufen echte Kunden nur unter dem Median, ist das Votum PASS.

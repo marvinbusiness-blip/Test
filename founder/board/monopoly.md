@@ -1,30 +1,29 @@
 # Monopoly lens
-Score: 3 | Vote: PASS
+Score: 4 | Vote: FUND IF
+Veränderung zu Runde 1: von 3/PASS auf 4/FUND IF. Die Rechtsfrage ist kein Killer mehr, sondern eine Aufgabe, und die Lücke ist wenigstens dünn belegt. Einen Burggraben zeigt die neue Evidenz nicht; die Wettbewerbsrecherche bestätigt eher, dass es keinen gibt.
 
 ## What is strong
-- Der Markt ist klein und klar umrissen: Bestandshaushalte mit elektrischen Rollläden in Willich und Umkreis, ein Produkt, ein Handgriff. Genau diese Form will die Monopoly-Linse für den Start.
-- Kapitalarm und billig zu testen, sauberer Einbau ohne Dreck, also eine niedrige Hürde für den Kunden.
-- Es gibt einen natürlichen Ausbaupfad (Licht, Steckdosen, weitere Smart-Home-Themen) über denselben Kundenzugang.
-- Zahlungsbereitschaft ist mindestens einmal belegt: 1.400 € für 12 Rollläden, also rund 117 € pro Rollladen inkl. Material. Das ist ein Einzelfall, kein Marktpreis.
+- **Team:** Elektroniker plus B.Eng., laut schriftlicher Antwort der Handwerkskammer Düsseldorf dem Meister gleichwertig. Nach Abschluss und Eintragung darf der Gründer das volle Elektrohandwerk anbieten.
+- **Eine unbesetzte Mini-Nische:** In Willich bewirbt niemand öffentlich Shelly-Rollläden mit Festpreis. Alboush beginnt bei 669 €, darunter (3–5 Rollläden) ist Platz. Das hat die Form „großer Anteil an einem kleinen Markt“.
+- **Ein Grund, warum die Lücke existiert:** Für ausgelastete Betriebe lohnen sich Kleinaufträge laut Foren kaum. Ein nebenberuflicher Gründer mit vorhandenem Werkzeug hat vermutlich niedrigere Fixkosten (zu beziffern mit `/founder-cfo`). Das ist ein Kostenvorteil, kein Wissensvorsprung, aber das Nächste an einem Geheimnis, was hier vorliegt.
+- **Ein benannter Vertriebsweg:** Die Shelly-Installateur-Karte erreicht Kunden, die Shelly schon gewählt haben (dazu Schulung, 10 % Cashback). Wie viele das in Willich sind, ist offen.
+- **Preisband bekannt:** 100–190 € pro Rollladen, Median ≈117 €. Keine Preisfantasie.
 
 ## What would kill it (the top 3, most dangerous first)
-1. **Kein Schutz vor Nachahmern.** Das ist kein Durchbruch, sondern ein frei erhältliches Modul plus Standardhandgriff. Jeder Elektrobetrieb im Umkreis kann das morgen anbieten, und der Referenzpreis zeigt, dass mindestens einer es schon tut. Dazu kommt der Selbermacher, denn Shelly ist frei im Handel. Ohne Geheimnis bleibt nur der Preis, und Wettbewerb über den Preis frisst die Marge.
-2. **Kein Vertriebsweg, nur Einmalaufträge.** Mundpropaganda und MyHammer sind kein Plan für die ersten 100 Kunden. Ein Portal stellt das Angebot direkt neben die Konkurrenz in den Preisvergleich. Jeder Haushalt kauft einmal und ist dann „fertig“. Jeder Euro Umsatz braucht also einen neuen Kunden, in einem Markt, dessen Größe niemand kennt.
-3. **Rechtsgrundlage und Haltbarkeit offen.** Arbeiten an der festen Elektroinstallation sind in Deutschland reguliert. Nach allgemeinem Kenntnisstand geht es um die Handwerksrolle bzw. das Installateurverzeichnis des Netzbetreibers; zu prüfen ist, ob der B.Eng. dafür genügt. Ohne Klärung gibt es kein Geschäft. Und in zehn Jahren: Wenn Rollladenhersteller und Neubauten smarte Antriebe ab Werk liefern (Trend, zu prüfen über `/founder-competitors`), schrumpft die Nachrüst-Nische.
+1. **Kein Burggraben.** Die Lücke ist eine Haltung („wir kommen auch für vier Rollläden“), kein Vorsprung, und nichts daran ist zehnmal besser. Elektro Lücke oder Michiels können das morgen auf ihre Webseite schreiben; Alboush hat Shelly, Festpreise und einen Rollladen-Ratgeber schon. Die Shelly-Karte, der eigene Vertriebsweg, macht jeden neuen Installateur im selben Umkreis sichtbar. Die Lücke bleibt nur offen, solange sie anderen zu klein ist, und genau das ist auch die Obergrenze des Geschäfts.
+2. **Das Geheimnis ist nicht lokal belegt.** Fünf Threads, überwiegend 2021–2023, bundesweit, teils andere Geräte. Ob Willicher Betriebe 2026 kleine Rollladenaufträge ablehnen, weiß niemand; ob die Auslastung der Elektrobetriebe heute noch so hoch ist wie damals: zu prüfen. Nehmen sie solche Aufträge für ≈117 € an, bleibt nur Preiskampf, und den gewinnt der Betrieb mit Kundenstamm und 32 Google-Bewertungen.
+3. **Einmalkauf, begrenzte Kapazität.** Jeder Haushalt kauft einmal; Marktgröße und Kosten pro Kunde sind unbekannt. Der einzige Vorteil ist Verfügbarkeit, doch der Gründer hat einen Vollzeitjob. Werden die Reaktionszeiten lang, schließt sich die Lücke von seiner Seite. Ohne Folgegeschäft entsteht keine lokale Marke, und die ist die einzige Verteidigung, die die Monopoly-Linse hier sieht.
 
 ## The questions I would ask the founder
-- Was weißt du über diesen Markt, das die Elektriker in Willich nicht wissen? Warum machen sie das nicht längst in großer Zahl?
-- Warum jetzt? Was hat sich geändert, dass das 2026 funktioniert und 2020 nicht?
-- Wer bietet das im Umkreis heute an, und zu welchem Preis? (`/founder-competitors`)
-- Wie kommen die ersten 100 Kunden konkret, und was kostet jeder einzelne? (`/founder-cfo`)
-- Wie viele Haushalte mit elektrischen Rollläden gibt es im Radius (offen, kein Skill liefert das direkt), und wie viele davon würden kaufen? (`/founder-consumer`)
-- Was hält einen Elektriker oder einen bastelnden Nachbarn davon ab, in Monat sechs genau dasselbe zu tun?
-- Was verkaufst du demselben Kunden als Zweites?
-- Hast du schriftlich (Handwerkskammer, Netzbetreiber), dass du das darfst, und eine Betriebshaftpflicht?
+- Nehmen Elektro Lücke, Michiels und Alboush einen Auftrag über vier Rollläden in Willich an, wie schnell und zu welchem Preis? Gehört Willich zu Alboushs 36 Städten?
+- Wie viele Haushalte im Radius haben elektrische Rollläden (offen, kein Skill liefert das direkt), und wie viele davon kaufen? (`/founder-consumer`)
+- Was kostet ein Kunde über Shelly-Karte, MyHammer oder Mundpropaganda? (`/founder-marketing`, `/founder-cfo`)
+- Welche Reaktionszeit kannst du neben dem Job verlässlich zusagen?
+- Was verkaufst du demselben Haushalt als Zweites?
+- Was kostet dich die Gewährleistung, wenn ein Shelly ausfällt? (`/founder-cfo`, `/founder-offer`; Ausfallraten zu prüfen)
+- Wann sind Abschluss, Handwerksrolle, Installateurverzeichnis und Haftpflicht erledigt?
 
 ## If FUND IF: the conditions
-Entfällt, das Votum ist PASS. Auf FUND IF würden mich diese vier Punkte bringen:
-1. Die rechtliche Zulässigkeit ist schriftlich geklärt, bevor der erste bezahlte Auftrag läuft.
-2. `/founder-competitors` belegt eine echte Lücke, z. B. dass hiesige Betriebe solche Kleinaufträge ablehnen oder die App-Einrichtung nicht übernehmen. Gefragt ist ein Beleg, keine Hoffnung. Das wäre das Geheimnis.
-3. Es gibt einen Vertriebsweg mit bekannten Kosten pro Kunde, der nicht über Preisvergleichsportale läuft (`/founder-cfo`).
-4. Es gibt einen Plan für Folgeumsatz pro Haushalt, damit aus Einmalaufträgen eine lokale Marke wird. Eine lokale Marke ist die einzige Verteidigung, die dieses Geschäft realistisch aufbauen kann.
+1. Kein bezahlter Auftrag vor Eintragung in die Handwerksrolle, einer schriftlichen Antwort des Netzbetreibers zum Installateurverzeichnis und einer abgeschlossenen Betriebshaftpflicht.
+2. Die Lücke wird lokal belegt, bevor Geld ins Marketing fließt: Entweder lehnen hiesige Betriebe Kleinaufträge erkennbar ab, oder ein Testlauf (Shelly-Karte, Webseite mit Festpreis) bringt in einem vorab festgelegten Zeitraum eine vorab festgelegte Zahl echter Anfragen aus Willich und Umkreis. Die Zahl leitet `/founder-cfo` aus dem Break-even ab. Kein Beleg heißt PASS.
+3. Marke vom ersten Tag an: öffentlicher Festpreis, Google-Profil, Bewertung nach jedem Auftrag, ein schriftliches Reaktionsversprechen, das neben dem Job haltbar ist, und ein definiertes Zweitangebot (Licht, Steckdosen). Gemessen wird, wie viele Kunden ein zweites Mal kaufen oder weiterempfehlen.
