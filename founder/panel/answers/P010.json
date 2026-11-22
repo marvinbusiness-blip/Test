@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Unsere Rollläden fahren ja schon per Knopf, und bei allem Elektrischen rufe ich unseren Elektriker an, den wir seit Jahren kennen. Einen neuen Betrieb, den ich nicht kenne, lasse ich nicht einfach an jede Schalterdose im Haus.",
+  "objection": "Bei acht, zehn Rollläden sind das schnell über tausend Euro für etwas, das ich im Grunde schon habe. Und wenn später was ist, will ich meinen eigenen Elektriker anrufen und nicht einen, den es vielleicht in zwei Jahren nicht mehr gibt.",
+  "would_change_my_mind": "Wenn mein Stamm-Elektriker mir das zu einem ähnlichen Preis anbietet, oder wenn Nachbarn mir das empfehlen und ich erst mal nur die Rollläden oben im Schlafzimmer machen lassen kann, damit ich nicht mehr hochlaufen muss.",
+  "price_too_cheap": 40,
+  "price_cheap": 70,
+  "price_expensive": 110,
+  "price_too_expensive": 160
+}

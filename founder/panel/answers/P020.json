@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Wir haben zehn Rollläden, das wären fast 1.200 Euro. So ein Shelly kostet um die 25 Euro, und bei zehn Stück auf einmal ist ein Elektriker in einem halben Tag durch. Ich hole mir drei Angebote über MyHammer, und mein Schwager kennt einen Elektriker, der das günstiger macht.",
+  "objection": "119 Euro pro Rollladen sind bei einem ganzen Haus einfach zu viel. Für ein Teil von 25 Euro und vielleicht 20 Minuten Arbeit pro Dose zahle ich bei zehn Stück keinen Einzelpreis.",
+  "would_change_my_mind": "Ein Mengenpreis fürs ganze Haus, so um die 60 bis 70 Euro pro Rollladen ab fünf Stück, und ein Angebot, das bei meinem Vergleich unter den anderen liegt.",
+  "price_too_cheap": 35,
+  "price_cheap": 55,
+  "price_expensive": 79,
+  "price_too_expensive": 100
+}

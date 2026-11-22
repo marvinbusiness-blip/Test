@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Meine Rollläden fahren per Knopf, das reicht mir. Ein WLAN-Modul mit App und Cloud hinter jedem Schalter will ich nicht im Haus haben, und jetzt im November ist die Hitze oben im Schlafzimmer sowieso weit weg.",
+  "objection": "Was passiert, wenn das WLAN spinnt, die App nicht mehr gepflegt wird oder irgendein Server weg ist? Ich will nicht, dass meine Rollläden von einer Firma im Internet abhängen oder plötzlich von selbst rauf und runter fahren.",
+  "would_change_my_mind": "Wenn es ganz ohne App und Internet ginge, einfach eine feste Zeitschaltung, die im Sommer das Dachgeschoss tagsüber zumacht, und ein Nachbar mir zeigt, dass es bei ihm seit Jahren ohne Ärger läuft.",
+  "price_too_cheap": 35,
+  "price_cheap": 60,
+  "price_expensive": 100,
+  "price_too_expensive": 140
+}

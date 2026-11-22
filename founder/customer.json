@@ -1,0 +1,41 @@
+{
+  "business": "Smart-Home-Nachrüstung Willich (Arbeitstitel): Shelly-Modul hinter den vorhandenen Rollladenschalter, Einbau + Einrichtung zum Festpreis",
+  "target": "Haus- und Wohnungseigentümer in Willich und Umgebung (Niederrhein, NRW), die schon elektrische Rollläden mit Wandschalter haben und nicht selbst an 230 V arbeiten wollen. Einkommen = Brutto-Haushaltseinkommen pro Jahr in Euro.",
+  "where": "Willich (Anrath, Schiefbahn, Neersen, Willich-Mitte) und Umgebung, Niederrhein, NRW",
+  "age": [33, 75],
+  "segments": [
+    {"name": "Berufstätige Familie im eigenen Haus (Einkommen in Euro)", "share": 0.35, "income": [55000, 110000]},
+    {"name": "Etablierte Eigentümer, Kinder aus dem Haus (Einkommen in Euro)", "share": 0.30, "income": [70000, 140000]},
+    {"name": "Im oder kurz vor dem Ruhestand, eigenes Haus (Einkommen in Euro)", "share": 0.25, "income": [30000, 65000]},
+    {"name": "Eigentümer einer Wohnung mit elektrischen Rollläden (Einkommen in Euro)", "share": 0.10, "income": [35000, 75000]}
+  ],
+  "behaviours": [
+    {"name": "Komfort-Sucher", "share": 0.20, "how": "Zahlt gern dafür, dass etwas einfach funktioniert und er sich nicht kümmern muss."},
+    {"name": "Preisvergleicher", "share": 0.18, "how": "Holt mindestens drei Angebote ein, schaut auf MyHammer und rechnet alles nach."},
+    {"name": "Technik-skeptisch", "share": 0.15, "how": "Misstraut Apps, Cloud und WLAN-Geräten und will, dass alles wie früher weiter geht."},
+    {"name": "Hört auf Empfehlungen", "share": 0.15, "how": "Kauft, was Nachbarn, Freunde oder Kollegen schon haben und loben."},
+    {"name": "Technik-Bastler", "share": 0.12, "how": "Macht vieles selbst oder kennt jemanden, der es für ein Bier macht."},
+    {"name": "Liest Bewertungen", "share": 0.10, "how": "Beauftragt niemanden ohne gute Google-Bewertungen und Referenzen."},
+    {"name": "Hat einen Stamm-Elektriker", "share": 0.10, "how": "Ruft bei allem Elektrischen den Betrieb an, den die Familie seit Jahren kennt."}
+  ],
+  "objections": [
+    "Die Rollläden fahren doch schon per Knopf, wozu brauche ich das?",
+    "Mein Elektriker kann das sicher auch.",
+    "Das kann ich selbst oder ein Bekannter macht das günstiger.",
+    "Was ist, wenn das WLAN nicht bis zum Fenster reicht oder die App nicht mehr geht?",
+    "Was passiert, wenn so ein Modul kaputtgeht, wer kommt dann?",
+    "Ich will nicht, dass meine Rollläden am Internet hängen.",
+    "Ist ein kleiner neuer Ein-Mann-Betrieb erreichbar, wenn etwas ist?",
+    "Bei acht Fenstern kommt da schnell ein Tausender zusammen."
+  ],
+  "habits": [
+    "du pendelst jeden Tag nach Düsseldorf und bist erst abends zu Hause",
+    "das Schlafzimmer im Dachgeschoss wird im Sommer unerträglich heiß",
+    "ihr fahrt zweimal im Jahr in den Urlaub und das Haus steht dann leer",
+    "du gehst jeden Abend durchs ganze Haus und lässt alle Rollläden einzeln runter",
+    "dein Nachbar hat sich gerade sein Haus smart machen lassen",
+    "du hast ein Smartphone, nutzt aber kaum Apps außer WhatsApp",
+    "Treppensteigen fällt dir zunehmend schwer",
+    "du hast schon einmal wochenlang auf einen Rückruf vom Elektriker gewartet"
+  ]
+}

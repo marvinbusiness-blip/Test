@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Der Urlaubsmodus wäre für uns genau richtig, weil das Haus zweimal im Jahr leer steht, und 119 € pro Rollladen würde ich für Bequemlichkeit zahlen. Aber bei acht, zehn Rollläden lege ich über tausend Euro hin bei einem Betrieb, der gerade erst anfängt, und nach 30 Tagen steht nirgends, wer sich kümmert.",
+  "objection": "Was ist, wenn so ein Modul nach einem Jahr kaputtgeht, während wir im Urlaub sind? Kommt der dann raus, was kostet das, und gibt es den Betrieb in zwei Jahren überhaupt noch? Ich will mich ja gerade nicht selbst darum kümmern müssen.",
+  "would_change_my_mind": "Eine schriftliche Zusage, dass ein defektes Modul mindestens zwei Jahre lang kostenlos vor Ort getauscht wird, und ein paar Bewertungen von Nachbarn aus Willich, bei denen er schon war.",
+  "price_too_cheap": 50,
+  "price_cheap": 85,
+  "price_expensive": 150,
+  "price_too_expensive": 210
+}

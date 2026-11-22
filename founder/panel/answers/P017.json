@@ -1,0 +1,13 @@
+{
+  "id": "P017",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Ein WLAN-Modul mit App hinter meinem Schalter, das will ich eigentlich gar nicht, meine Rollläden laufen ja. Und bei einem ganz neuen Betrieb weiß ich nicht, ob der in zwei Jahren noch da ist, wenn was nicht mehr geht.",
+  "objection": "Was passiert, wenn so ein Modul kaputtgeht oder die App nach einem Update nicht mehr will? Nach 30 Tagen steh ich alleine da, und wer kommt dann und was kostet mich das?",
+  "would_change_my_mind": "Eine schriftliche Zusage, dass er mehrere Jahre ein kaputtes Modul zum festen Preis tauscht und es auch ganz ohne App und Internet nur mit einer festen Zeitschaltung läuft, damit das Dachgeschoss tagsüber zu ist.",
+  "price_too_cheap": 40,
+  "price_cheap": 70,
+  "price_expensive": 140,
+  "price_too_expensive": 190
+}

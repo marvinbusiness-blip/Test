@@ -1,0 +1,13 @@
+{
+  "id": "P019",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Ein ganz neuer Betrieb, den keiner aus der Nachbarschaft kennt, und jetzt im November ist das heiße Schlafzimmer weit weg. Bevor ich da was mache, frage ich erst mal meinen Bekannten, der Elektriker ist, ob der mir so ein Modul nicht günstiger reinsetzt.",
+  "objection": "119 € pro Rollladen läppert sich bei meinen acht, neun Fenstern auf fast tausend Euro, und das Modul selbst kostet doch nur einen Bruchteil davon. Und von dem Betrieb hat mir noch niemand erzählt, dass er gut ist.",
+  "would_change_my_mind": "Wenn ein Nachbar das schon hat und mir im Sommer zeigt, dass sein Dachgeschoss mit den Zeitplänen spürbar kühler bleibt, und ich erst mal nur die zwei Dachfenster machen lassen kann.",
+  "price_too_cheap": 40,
+  "price_cheap": 70,
+  "price_expensive": 100,
+  "price_too_expensive": 150
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P016",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Bei acht Fenstern sind das 952 Euro, und das Shelly-Modul kostet im Netz keine 30 Euro. Bevor ich so viel ausgebe, hole ich mir erst zwei, drei andere Angebote über MyHammer ein, das dauert bei mir länger als einen Monat.",
+  "objection": "Rund 90 Euro Arbeitslohn pro Schalterdose kommt mir happig vor, wenn der Elektriker an einem Termin alle acht hintereinander macht. Einen Preis pro Stück ohne Mengenrabatt finde ich bei so einer Menge nicht fair.",
+  "would_change_my_mind": "Ein Paketpreis für das ganze Haus, z. B. alle acht Rollläden für unter 700 Euro, der bei meinem Vergleich günstiger als die anderen Angebote liegt.",
+  "price_too_cheap": 35,
+  "price_cheap": 60,
+  "price_expensive": 95,
+  "price_too_expensive": 130
+}

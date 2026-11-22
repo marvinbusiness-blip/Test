@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Das heiße Dachschlafzimmer nervt mich wirklich, und Rollläden per Zeitplan wären genau richtig. Aber ein neuer Betrieb ohne Google-Bewertungen und ohne Referenzen kommt bei mir nicht an die 230 V im Haus, egal wie fair der Festpreis klingt.",
+  "objection": "Was passiert, wenn so ein Modul in einem Jahr kaputtgeht oder die App nicht mehr will? 30 Tage Telefonhilfe reichen mir nicht, und bei einem ganz neuen Betrieb weiß ich nicht, ob es den in zwei Jahren noch gibt und wer dann kommt.",
+  "would_change_my_mind": "Ein paar echte, gute Google-Bewertungen oder Nachbarn aus Willich, die das schon machen ließen, plus eine schriftliche Gewährleistung von mindestens zwei Jahren auf Modul und Einbau mit Austausch vor Ort.",
+  "price_too_cheap": 50,
+  "price_cheap": 85,
+  "price_expensive": 150,
+  "price_too_expensive": 210
+}
