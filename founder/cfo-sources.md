@@ -25,7 +25,7 @@ Stand 22.11.2026. **Q** = öffentliche Quelle (verlinkt), **S** = Schätzung (Be
 ## Startkosten
 - Installationstester VDE 0100-600, 930 €: **Q** Benning IT 105 ≈928 € ([Kaufland](https://www.kaufland.at/product/316536419/)), Fluke 1663 ≈1.591 €. **G fragen: Ist schon einer vorhanden?** Wenn ja, entfällt der Posten.
 - Eintragung Handwerksrolle, 200 €: **S**, Gebühr bei der HWK Düsseldorf erfragen.
-- Gewerbeanmeldung, 30 €: **S**, Gebühr bei der Stadt Willich erfragen.
+- Gewerbeanmeldung, 26 €: **Q** NRW-Gebührenordnung für Einzelunternehmer, z. B. [Dortmund](https://www.dortmund.de/services/gewerbeanmeldung.html); bei der Stadt Willich bestätigen.
 - Flyer, Visitenkarten, Domain, 120 €: **S**.
 - Vorführ-Board, 60 €: **S** 2 Shellys, Taster, Platte.
 
