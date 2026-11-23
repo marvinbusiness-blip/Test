@@ -443,6 +443,16 @@ Selbst bei einem Viertel der geplanten Menge entsteht kein Verlust. Das Risiko d
 
 **Variante „klein“ für die Master-Zeit (23.11.2026):** 60 % der Planmenge (`--volume 0.6`), also ≈94 Rollläden im Jahr bzw. 1–2 Aufträge im Monat. Ergebnis: **6.803 € Betriebsgewinn** bei 11.138 € Umsatz, Startgeld im 4. Monat zurück, ≈67 h/Jahr (≈5–6 h/Monat). Damit liegt der Gewinn unter der Rentenversicherungs-Grenze für Handwerker (≈7.200 €/Jahr, zu bestätigen), es fällt also **kein Rentenbeitrag** an. Zum Vergleich: Der volle Plan bringt 12.251 € abzüglich ≈2.230 € Rentenbeitrag, also ≈10.000 € für ≈112 h. **Pro Stunde ist „klein“ etwa gleich gut oder besser** und passt zu Vollzeitjob und Master. Vorsicht an der Grenze: Zwischen ≈7.200 € und ≈8.900 € Gewinn im Jahr stehst du nach Rentenbeitrag schlechter da als knapp unter der Grenze.
 
+**Netto pro Monat (23.11.2026):** Gerechnet mit Aufträgen à 5 Rollläden zu 119 €, Deckungsbeitrag 87,30 €/Rollladen, Fixkosten 114 €/Monat, Rentenbeitrag 18,6 % nur über 603 € Gewinn im Monat (zu bestätigen), Einkommensteuer mit **angenommenem Grenzsteuersatz 35 %** (Spanne 30–42 %, ohne Kirchensteuer). Startkosten (1.336 €) nicht eingerechnet, sie fallen einmalig im ersten Jahr an.
+
+| pro Monat | Umsatz | Gewinn | Rentenbeitrag | **netto (35 %)** | Spanne 30–42 % | Zeit | netto pro Stunde |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 1 Auftrag (5 Rollläden) | 595 € | 322,50 € | 0 € | **≈210 €** | 187–226 € | ≈3,6 h | ≈58 € |
+| 1,5 Aufträge (7,5 Rollläden) | 893 € | 540,75 € | 0 € | **≈350 €** | 314–379 € | ≈5,4 h | ≈65 € |
+| 2 Aufträge (10 Rollläden) | 1.190 € | 759,00 € | ≈141 € | **≈400 €** | 358–432 € | ≈7,2 h | ≈56 € |
+
+Der Sprung von 1,5 auf 2 Aufträge bringt wegen des Rentenbeitrags nur ≈50 € netto mehr für ≈1,8 h mehr Arbeit. Der Sweet Spot liegt bei **≈1,5 Aufträgen im Monat im Schnitt** (unter 603 € Gewinn).
+
 **Steuern, die das Ergebnis schmälern (zu prüfen):**
 - **Einkommensteuer:** Der Gewinn kommt zu deinem Gehalt dazu und wird mit deinem persönlichen Grenzsteuersatz versteuert. Davon geht also ein spürbarer Teil ans Finanzamt.
 - **Umsatzsteuer:** Mit ~18.600 € Umsatz im Jahr 1 läge der Betrieb unter der Grenze der Kleinunternehmerregelung (§ 19 UStG, Vorjahresumsatz bis 25.000 €). Dann gilt 119 € = 119 € ohne Umsatzsteuer. Gilt sie nicht, bleiben von 119 € brutto nur 100 € netto, und der Gewinn sinkt deutlich (vergleiche Preis −10 % bis −20 %).
