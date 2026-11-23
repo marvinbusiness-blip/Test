@@ -24,7 +24,7 @@
 - Who it is for: Besitzer bzw. Bewohner von Einfamilienhäusern, Reihenhäusern und Wohnungen in Willich und Umgebung, die bereits elektrische Rollläden haben (typisch mehrere Rollläden pro Haushalt, z. B. 5–12) und diese per Handy/Zeitplan steuern wollen.
 - What it sells, at what price: Einbau + Einrichtung von Shelly-Modulen zum Festpreis pro Rollladen (Staffel aus pricing.md: 1–3 Rollläden 139 €, 4–7 Rollläden 119 €, ab 8 Rollläden 105 €; die ersten 5 Referenzkunden 95 €). Inklusive Foto-Check, Abnahme-Test, 2 Jahre Vor-Ort-Austausch, 30 Tage Hilfe. Kunde bekommt die kostenlose Shelly-App.
 - Where and how: Vor Ort beim Kunden, Willich und Umkreis. Kundengewinnung zunächst über Mundpropaganda, ggf. kleine Webseite und Handwerkerportale (z. B. MyHammer).
-- Budget and constraints: Nebenberuflich neben einem Vollzeitjob. Gründer hat eine Ausbildung zum Elektroniker für Geräte und Systeme und schließt in Kürze den Bachelor of Engineering Elektrotechnik ab. Die Handwerkskammer Düsseldorf hat schriftlich bestätigt: Der Bachelor gilt als gleichwertig zur Meisterprüfung; nach Abschluss ist die Eintragung in die Handwerksrolle und damit das volle Elektrotechniker-Handwerk möglich; Werkzeug ist vorhanden; Startbudget unkritisch. Bei Rollläden schon praktisch ausprobiert, funktioniert gut, Gründer ist mit Shelly zufrieden. Start bewusst eng: nur Rollläden (evtl. Steckdosen). Ziel jetzt: herausfinden, ob die Idee trägt.
+- Budget and constraints: Nebenberuflich neben einem Vollzeitjob. Gründer hat eine Ausbildung zum Elektroniker für Geräte und Systeme und hat Anfang November 2026 den Bachelor of Engineering Elektrotechnik abgeschlossen; seit Anfang November 2026 Vollzeitstelle (35 h/Woche, Probezeit bis 31.01.2027, Nebentätigkeiten laut Vertrag genehmigungspflichtig) und berufsbegleitender Master (noch ca. 2 Jahre). Die Handwerkskammer Düsseldorf hat schriftlich bestätigt: Der Bachelor gilt als gleichwertig zur Meisterprüfung; nach Abschluss ist die Eintragung in die Handwerksrolle und damit das volle Elektrotechniker-Handwerk möglich; Werkzeug ist vorhanden; Startbudget unkritisch. Bei Rollläden schon praktisch ausprobiert, funktioniert gut, Gründer ist mit Shelly zufrieden. Start bewusst eng: nur Rollläden (evtl. Steckdosen). Ziel jetzt: herausfinden, ob die Idee trägt.
 
 ## Summary
 
@@ -441,6 +441,8 @@ Selbst bei einem Viertel der geplanten Menge entsteht kein Verlust. Das Risiko d
 2. **Den Durchschnittspreis halten:** 139 € statt 119 € bringt **+3.120 €**, 105 € statt 119 € kostet **−2.184 €**. Die Ganzes-Haus-Stufe (105 €) und der Referenzpreis (95 €) senken den Schnitt. Den Referenzpreis deshalb wirklich auf 5 Kunden begrenzen. Die ersten 25 Rollläden zu 95 € kosten etwa 600 € gegenüber dem Plan.
 3. **Stückkosten sind ein kleiner Hebel:** Shelly im Mehrfachpack beim Großhändler kaufen und Leerfahrten durch den Foto-Check vermeiden. −15 % Stückkosten bringen nur etwa **+740 €**. Nicht am Material sparen, das gefährdet die Garantie.
 
+**Variante „klein“ für die Master-Zeit (23.11.2026):** 60 % der Planmenge (`--volume 0.6`), also ≈94 Rollläden im Jahr bzw. 1–2 Aufträge im Monat. Ergebnis: **6.803 € Betriebsgewinn** bei 11.138 € Umsatz, Startgeld im 4. Monat zurück, ≈67 h/Jahr (≈5–6 h/Monat). Damit liegt der Gewinn unter der Rentenversicherungs-Grenze für Handwerker (≈7.200 €/Jahr, zu bestätigen), es fällt also **kein Rentenbeitrag** an. Zum Vergleich: Der volle Plan bringt 12.251 € abzüglich ≈2.230 € Rentenbeitrag, also ≈10.000 € für ≈112 h. **Pro Stunde ist „klein“ etwa gleich gut oder besser** und passt zu Vollzeitjob und Master. Vorsicht an der Grenze: Zwischen ≈7.200 € und ≈8.900 € Gewinn im Jahr stehst du nach Rentenbeitrag schlechter da als knapp unter der Grenze.
+
 **Steuern, die das Ergebnis schmälern (zu prüfen):**
 - **Einkommensteuer:** Der Gewinn kommt zu deinem Gehalt dazu und wird mit deinem persönlichen Grenzsteuersatz versteuert. Davon geht also ein spürbarer Teil ans Finanzamt.
 - **Umsatzsteuer:** Mit ~18.600 € Umsatz im Jahr 1 läge der Betrieb unter der Grenze der Kleinunternehmerregelung (§ 19 UStG, Vorjahresumsatz bis 25.000 €). Dann gilt 119 € = 119 € ohne Umsatzsteuer. Gilt sie nicht, bleiben von 119 € brutto nur 100 € netto, und der Gewinn sinkt deutlich (vergleiche Preis −10 % bis −20 %).
@@ -673,7 +675,15 @@ Mit 👁 markiert ist, was der Kunde sieht.
 
 Stand: 22.11.2026 · Grundlagen: `ops.md`, `cfo.md`, `pricing.md`, `garantie.md`, `board.md`, `panel/results.md`
 
-> **Annahme für alle Daten:** Das Bachelor-Zeugnis liegt bis **Fr 29.01.2027** vor. Kommt es später, verschiebt sich alles ab Block 3 um genau diese Zeit, denn der Bachelor ist der Anfang des kritischen Pfads. **Bitte den echten Termin nennen, dann passe ich die Daten an.**
+> **Update 23.11.2026, bestätigte Eckdaten:**
+> - Der Bachelor ist **seit Anfang November 2026 abgeschlossen**.
+> - Vollzeitstelle (35 h/Woche) seit Anfang November, **Probezeit bis 31.01.2027**.
+> - Laut Arbeitsvertrag muss **jede Nebentätigkeit vom Chef genehmigt** werden.
+> - Daneben läuft ein **Master für noch etwa 2 Jahre** (bis Ende 2028).
+>
+> **Neuer kritischer Pfad:** Die Genehmigung des Arbeitgebers, nicht mehr der Bachelor. Bis 31.01. läuft nur Vorbereitung ohne Genehmigung. Der Antrag folgt direkt nach der Probezeit, bezahlte Aufträge erst nach der Zusage.
+>
+> **Empfohlene Größe während des Masters: „klein“.** Etwa 94 Rollläden im Jahr (1–2 Aufträge pro Monat, ≈5–6 h/Monat). Das ergibt ≈6.800 € Betriebsgewinn (`unit_economics.py --volume 0.6`) und liegt **unter der Rentenversicherungs-Grenze** (≈7.200 €/Jahr, zu bestätigen). Das ist zugleich ein ehrliches Argument gegenüber dem Arbeitgeber.
 >
 > **Öffentlicher Start: Samstag, 08.05.2027.** Das ist der Beginn der Hitzeschutz-Saison. Mehrere Panel-Käufer sagten „im November drängt das nicht“.
 
@@ -703,7 +713,7 @@ Alle Aufgaben hast du selbst. Mit 🔴 markiert ist der **kritische Pfad**: Ruts
 | Aufgabe | Frist |
 |---|---|
 | 🔴 **Kostenlose Beratung HWK Düsseldorf** buchen und wahrnehmen: Rentenversicherung im Nebenerwerb, Gewährleistung 2 oder 5 Jahre, Muster-AGB, Abnahmeprotokoll, Eintragungsgebühr, öffentliche Werbung vor der Eintragung | Termin bis 27.11., Gespräch bis 11.12. |
-| 🔴 **Arbeitgeber:** Nebentätigkeit anzeigen, Wettbewerbsverbot prüfen | 04.12. |
+| **Arbeitsvertrag lesen:** Genehmigungspflicht, Wettbewerbsverbot, Meldepflichten. Antrag schriftlich vorbereiten, aber **noch nicht stellen** (Probezeit bis 31.01.) | 18.12. |
 | **DRV** anfragen: Versicherungspflicht, Geringfügigkeitsgrenze, Beitrag | 11.12. |
 | **BG ETEM** anfragen: Unternehmer-Pflichtversicherung für Ein-Personen-Elektrobetrieb, Kosten | 11.12. |
 | **Stadtwerke Willich / Netzbetreiber:** Ist für diese Arbeiten der Eintrag ins Installateurverzeichnis nötig? Welche Messgeräte? | 11.12. |
@@ -714,30 +724,33 @@ Alle Aufgaben hast du selbst. Mit 🔴 markiert ist der **kritische Pfad**: Ruts
 #### Block 2: Vorbereiten (KW 52–KW 4, 21.12.2026–29.01.2027)
 | Aufgabe | Frist |
 |---|---|
-| 🔴 **Bachelor abschließen, Zeugnis anfordern** | **29.01.2027** |
+| ~~Bachelor abschließen~~ ✓ erledigt (Anfang November 2026). Zeugnis für die HWK bereithalten | ✓ |
+| Probezeit gut abschließen, keine Nebentätigkeit | **31.01.2027** |
 | **Test B:** 15 Gespräche im Umfeld, Zusagen mit Fotos sammeln | 29.01. |
 | Steuerberater-Erstgespräch: Kleinunternehmerregelung, Einkommensteuer, Rentenversicherung | 15.01. |
 | Vorlagen fertig: Angebot, Leistungsbeschreibung, Widerrufsbelehrung, Abnahmeprotokoll, Übergabeblatt, VDE-Prüfprotokoll | 29.01. |
 | Entscheidung Prüfgerät (kaufen, gebraucht kaufen oder entfällt), abhängig von Netzbetreiber und HWK | 29.01. |
 | Vorführ-Board bauen (2 Shellys, Taster), eigene Zeitpläne und Firmware testen | 29.01. |
 
-#### Block 3: Anmelden (KW 5–8, 01.–26.02.2027)
+#### Block 3: Genehmigen lassen und anmelden (KW 5–10, 01.02.–12.03.2027)
 | Aufgabe | Frist |
 |---|---|
-| 🔴 **Eintragung in die Handwerksrolle** beantragen, mit Zeugnis (Dauer bei der HWK erfragen) | Antrag 02.02., Eintragung bis ca. 19.02. |
-| 🔴 **Gewerbeanmeldung** (Wirtschafts-Service-Portal.NRW, ≈26 €), nach bzw. mit der Eintragung | 19.02. |
-| 🔴 **Finanzamt:** Fragebogen zur steuerlichen Erfassung (ELSTER). Die **Steuernummer** brauchst du für die Rechnungen, Bearbeitung kann Wochen dauern | Antrag 19.02. |
-| 🔴 **Betriebshaftpflicht** abschließen, Beginn spätestens am Tag des ersten Auftrags | 26.02. |
-| BG ETEM anmelden (innerhalb 1 Woche nach Gewerbeanmeldung) | 26.02. |
-| DRV melden (innerhalb 3 Monaten), Beitragsvariante klären | März |
-| Netzbetreiber-Eintrag beantragen, falls nötig | 26.02. |
-| Geschäftskonto, Rechnungsprogramm, Firmenkonto beim Großhändler | 26.02. |
-| Erstbestand: 10 Shellys + Klemmen + 3 Ersatzgeräte bestellen (1–3 Tage Lieferzeit) | 26.02. |
+| 🔴 **Antrag auf Nebentätigkeit** schriftlich beim Chef stellen: fester Rahmen (nur samstags, max. ≈6 h/Monat, nie in der Arbeitszeit, nie bei Krankschreibung, keine Konkurrenz, Gewinn bewusst klein) | Mo **01.02.2027** |
+| 🔴 **Genehmigung** erhalten (schriftlich). Ohne Genehmigung keine bezahlten Aufträge | ca. 12.02. |
+| 🔴 **Eintragung in die Handwerksrolle** beantragen, mit Bachelor-Zeugnis (Dauer bei der HWK erfragen) | Antrag 15.02., Eintragung bis ca. 05.03. |
+| 🔴 **Gewerbeanmeldung** (Wirtschafts-Service-Portal.NRW, ≈26 €), nach bzw. mit der Eintragung | 05.03. |
+| 🔴 **Finanzamt:** Fragebogen zur steuerlichen Erfassung (ELSTER). Die **Steuernummer** brauchst du für die Rechnungen, Bearbeitung kann Wochen dauern | Antrag 05.03. |
+| 🔴 **Betriebshaftpflicht** abschließen, Beginn spätestens am Tag des ersten Auftrags | 12.03. |
+| BG ETEM anmelden (innerhalb 1 Woche nach Gewerbeanmeldung) | 12.03. |
+| DRV melden (innerhalb 3 Monaten), Beitragsvariante bzw. Geringfügigkeit klären | April |
+| Netzbetreiber-Eintrag beantragen, falls nötig | 12.03. |
+| Geschäftskonto, Rechnungsprogramm, Firmenkonto beim Großhändler | 12.03. |
+| Erstbestand: 10 Shellys + Klemmen + 3 Ersatzgeräte bestellen (1–3 Tage Lieferzeit) | 12.03. |
 
-#### Block 4: Referenzphase = Soft Open (KW 9–16, 01.03.–24.04.2027)
+#### Block 4: Referenzphase = Soft Open (KW 11–16, 13.03.–24.04.2027)
 | Aufgabe | Frist |
 |---|---|
-| **Test C, Teil 1:** 5 Referenzaufträge aus Test B einplanen (Samstage 06.03., 13.03., 20.03., 27.03., 10.04. + Reserve) | 24.04. |
+| **Test C, Teil 1:** 5 Referenzaufträge aus Test B einplanen (Samstage 13.03., 20.03., 10.04., 17.04., 24.04.; Ostersamstag 27.03. frei; Master-Prüfungstermine vorher eintragen und freihalten) | 24.04. |
 | Bei jedem Auftrag messen: Zeit pro Rollladen, Zeit pro Auftrag, Probleme vor Ort, WLAN-Fälle | laufend |
 | Nach jedem Auftrag: Google-Bewertung und Erlaubnis für Referenz/Vorzeigen einholen, Fotos (mit Erlaubnis) | laufend |
 | Google-Unternehmensprofil anlegen, Shelly-Installateur-Karte registrieren (erst sichtbar machen, wenn es die ersten Bewertungen gibt) | 27.03. |
