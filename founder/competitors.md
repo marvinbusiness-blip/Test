@@ -107,6 +107,34 @@ Der Gründer hat **4 Anfragen** an lokale Betriebe gestellt (Elektro Lücke u. a
 
 Das ist der erste **lokale, echte** Beleg für Abschnitt 4.1 („Elektriker lehnen kleine Shelly-Aufträge ab oder melden sich nicht“). Bisher stützte sich das nur auf bundesweite Foren von 2021–2023. Die Stichprobe ist klein. Ob die drei noch antworten und was der vierte verlangt, steht aus.
 
+## 8. Echtes Vergleichsangebot: Elektro Holl (Raum Rheinberg), Mai 2025
+
+Ein Bekannter des Gründers hat dieses Angebot bekommen (Foto liegt dem Gründer vor). Rheinberg liegt nicht in Willich, die Zahlen sind aber der erste **echte, vollständige Preis** eines Elektrobetriebs für genau diese Leistung.
+
+**Leistung:** Liefern und Einbau von 11 Shelly-Rollladenaktoren, Ausbau der vorhandenen Rollladensteuerungen, Montage von 11 **neuen** Jalousieschaltern.
+
+| Position | Menge | Einzelpreis netto | Gesamt netto |
+|---|---:|---:|---:|
+| Shelly Relais Plus 2PM | 11 | 33,02 € | 363,22 € |
+| Merten Jalousieschalter-Einsatz | 11 | 23,05 € | 253,55 € |
+| Merten Wippe | 11 | 8,64 € | 95,04 € |
+| Merten Rahmen | 11 | 2,46 € | 27,06 € |
+| **Material** | | | **738,87 €** |
+| Monteurstunden | 8 h | 60,00 € | 480,00 € |
+| **Netto** | | | **1.218,87 €** |
+| MwSt. 19 % | | | 231,59 € |
+| **Brutto** | | | **1.450,46 €** |
+
+**Pro Rollladen: ≈131,86 € brutto** (≈110,81 € netto), inklusive neuer Schalter.
+
+**Was man daraus lernt:**
+- **Der Preis passt zu den Recherche-Daten.** Bisher lag der Median bei ≈117 € pro Rollladen. Mit neuen Schaltern liegt Holl etwas darüber.
+- **Holl schlägt kräftig auf das Material auf:** Der Shelly kostet beim Kunden 33,02 € netto, im Handel kostet er ≈16–20 €. Das ist im Handwerk üblich.
+- **Der Stundensatz liegt bei 60 € netto.**
+- **Zeit:** 8 Stunden für 11 Rollläden inklusive Schaltertausch, also ≈44 Minuten pro Rollladen. Die Annahme in `numbers.json` ergibt für 11 Rollläden ≈6 Stunden (25 min pro Rollladen plus 90 min pro Auftrag), allerdings ohne Schaltertausch. Die Größenordnung passt.
+- **Neue Schalter sind eine mögliche Zusatzleistung.** Viele Kunden wollen bei der Gelegenheit vielleicht auch neue Schalter im einheitlichen Design. Das kostet bei Holl ≈34 € Material netto pro Rollladen.
+- **Vergleich mit der eigenen Staffel:** 11 Rollläden à 105 € = 1.155 € (Kleinunternehmer, ohne MwSt., ohne neue Schalter). Das sind ≈295 € bzw. ≈20 % weniger als Holl. Der eigene Preis hat also Luft nach oben. Das stützt den Preistest 109 € gegen 129 € aus `pricing.md`.
+
 ## Für die nächsten Skills
 
 - `/founder-consumer`: Einwände testen: „Mein Elektriker macht das auch“, „Kann ich selbst / mein Schwager macht das“, „Was, wenn das WLAN nicht reicht?“, „Was, wenn Shelly kaputtgeht?“, „Lohnt sich das für nur 3 Rollläden?“
