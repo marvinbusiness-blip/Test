@@ -128,12 +128,12 @@ Ein Bekannter des Gründers hat dieses Angebot bekommen (Foto liegt dem Gründer
 **Pro Rollladen: ≈131,86 € brutto** (≈110,81 € netto), inklusive neuer Schalter.
 
 **Was man daraus lernt:**
-- **Der Preis passt zu den Recherche-Daten.** Bisher lag der Median bei ≈117 € pro Rollladen. Mit neuen Schaltern liegt Holl etwas darüber.
-- **Holl schlägt kräftig auf das Material auf:** Der Shelly kostet beim Kunden 33,02 € netto, im Handel kostet er ≈16–20 €. Das ist im Handwerk üblich.
-- **Der Stundensatz liegt bei 60 € netto.**
-- **Zeit:** 8 Stunden für 11 Rollläden inklusive Schaltertausch, also ≈44 Minuten pro Rollladen. Die Annahme in `numbers.json` ergibt für 11 Rollläden ≈6 Stunden (25 min pro Rollladen plus 90 min pro Auftrag), allerdings ohne Schaltertausch. Die Größenordnung passt.
-- **Neue Schalter sind eine mögliche Zusatzleistung.** Viele Kunden wollen bei der Gelegenheit vielleicht auch neue Schalter im einheitlichen Design. Das kostet bei Holl ≈34 € Material netto pro Rollladen.
-- **Vergleich mit der eigenen Staffel:** 11 Rollläden à 105 € = 1.155 € (Kleinunternehmer, ohne MwSt., ohne neue Schalter). Das sind ≈295 € bzw. ≈20 % weniger als Holl. Der eigene Preis hat also Luft nach oben. Das stützt den Preistest 109 € gegen 129 € aus `pricing.md`.
+- **Fairer Vergleich nur für den Shelly-Teil:** Ohne Schaltermaterial (375,65 € netto) bleiben 843,22 € netto ≈ **1.003 € brutto** für 11 Rollläden. Rechnet man zusätzlich ≈10 min Arbeit pro Schaltertausch heraus, sind es ≈ **873 € brutto**. Der **Shelly-Teil liegt also bei ≈79–91 € brutto pro Rollladen**.
+- **Folgerung für den eigenen Preis:** Mit 105 € bzw. 119 € pro Rollladen liegt der eigene Preis **über** Holls reinem Shelly-Teil, bei 11 Rollläden um ≈150–280 €. Der eigene Preis enthält aber mehr: Foto-Check, App- und Zeitplan-Einrichtung, Einweisung, Abnahme-Test, 2 Jahre Vor-Ort-Austausch. Ob Holl die Einrichtung gemacht hat, steht nicht im Angebot. **Preistest daher eher 99 € gegen 119 € statt 109 € gegen 129 €.**
+- **Warum neue Schalter?** Im Angebot steht „Ausbau der vorhandenen Rollosteuerungen“. Vermutlich waren elektronische Rollladensteuerungen bzw. Zeitschaltuhren verbaut, die gegen Taster getauscht werden mussten (beim Bekannten nachfragen). Solche Fälle im Foto-Check erkennen und mit Schaltertausch als **Zusatzposten** anbieten (bei Holl ≈34 € Material netto pro Rollladen plus Arbeit).
+- **Material-Aufschlag:** Holl berechnet den Shelly mit 33,02 € netto (Handel ≈16–20 €). Das ist im Handwerk üblich.
+- **Stundensatz:** 60 € netto.
+- **Zeit:** 8 h für 11 Rollläden inklusive Schaltertausch, also ≈44 min pro Rollladen. Die eigene Annahme (≈6 h für 11 ohne Schaltertausch) passt in der Größenordnung.
 
 ## Für die nächsten Skills
 
