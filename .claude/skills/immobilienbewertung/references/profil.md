@@ -26,10 +26,13 @@ Der Nutzer hat diese Vorlieben selbst festgelegt (November 2026). Sie bestimmen 
 ## Was ihm wichtig ist
 - **Eigentumswohnung:** Balkon/Terrasse und Stellplatz/Garage. Fehlt eins davon, als Minuspunkt nennen.
 - **Haus:** Garten bzw. ausreichend Grundstück.
+- **Ausrichtung:** Balkon/Terrasse, Garten und Hauptwohnräume sollen nach **Süden oder Westen** gehen (grob reicht: Südost bis Nordwest über Süd ist okay). **Nord oder Ost (bzw. Nordost) geht gar nicht**, bei Wohnungen und Häusern. Ist die Ausrichtung nicht bekannt, aus Grundriss (Nordpfeil), Fotos (Sonnenstand) oder Lageplan ableiten, sonst als wichtige offene Frage nennen.
+- **Gute Aussicht** (z. B. höheres Stockwerk mit freiem Blick) ist ein Plus.
 
 ## K.-o.-Kriterien (klar abraten bzw. rot markieren)
 - **Sanierungsstau oder beschlossene/absehbare Sonderumlage** (WEG-Protokolle!).
 - **Schlechte Mikrolage** (laute Hauptstraße, Bahn/Gewerbe direkt nebenan, bekanntes Problemviertel).
+- **Ausrichtung Nord oder Ost** von Balkon/Garten/Hauptwohnräumen.
 
 ## Urteilsstil
 - **Chancenorientiert:** Potenziale (Mieterhöhung bis Mietspiegel, Wertsteigerung durch kleinere Arbeiten, eigene Elektroarbeiten) sichtbar machen und gewichten. Trotzdem das Basisszenario mit heutigen Zahlen immer zeigen, und K.-o.-Kriterien bleiben K.-o.

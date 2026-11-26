@@ -14,7 +14,7 @@ Lies zuerst `references/profil.md`. Dort stehen seine Vorlieben: Region, Standar
 ### 1. Objektdaten holen
 - **Link:** Versuche, die Seite zu lesen (WebFetch oder, falls nicht vorhanden, der `web-fetch`-Agent). Immobilienportale blockieren automatisierte Abrufe oft, und manche Umgebungen haben keinen freien Netzzugang. Klappt es nicht, sag das in einem Satz und bitte um einen Screenshot des Exposés oder die Eckdaten. Rate nichts aus der URL zusammen.
 - **Screenshot oder PDF:** Lies alle Seiten. Achte auf das Kleingedruckte: Hausgeld-Aufteilung, Erbbaurecht, vermietet/frei, Baujahr der Heizung, Energieausweis.
-- **Wichtige Eckdaten:** Kaufpreis, Wohnfläche, Ort und Straße/Stadtteil, Baujahr, Zustand und letzte Modernisierungen, Heizung und Energiekennwert. Bei ETW zusätzlich Hausgeld (davon nicht umlagefähig), Etage, Balkon, Stellplatz. Bei Häusern die Grundstücksfläche. Bei Vermietung die Ist-Kaltmiete (bei MFH die Mietliste). Dazu die Maklerprovision.
+- **Wichtige Eckdaten:** Kaufpreis, Wohnfläche, Ort und Straße/Stadtteil, Baujahr, Zustand und letzte Modernisierungen, Heizung und Energiekennwert, Ausrichtung. Bei ETW zusätzlich Hausgeld (davon nicht umlagefähig), Etage, Balkon, Stellplatz. Bei Häusern die Grundstücksfläche. Bei Vermietung die Ist-Kaltmiete (bei MFH die Mietliste). Dazu die Maklerprovision.
 
 ### 2. Zweck klären
 Kapitalanlage oder Eigennutzung? Meist ergibt es sich (vermietet, Mietliste → Anlage). Wenn nicht klar, frag kurz. Wenn beides denkbar ist, rechne den Hauptzweck und nenne den anderen in einem Satz.
@@ -65,7 +65,7 @@ python3 scripts/rechner.py --kaufpreis 465000 --wohnflaeche 125 --bundesland NW 
 
 Urteile **chancenorientiert**, wie im Profil gewünscht. Zeig Potenziale mit Zahl, aber immer neben dem Basisszenario mit heutigen Werten. K.-o. bleibt K.-o.
 
-Gleiche das Objekt mit seinen Wünschen ab: ETW mit Balkon und Stellplatz, Haus mit Garten bzw. Grundstück. Fehlt etwas, nenne es als Minuspunkt. Wenn alte Elektrik ein Thema ist, nenn als Plus, dass er die selbst machen kann.
+Gleiche das Objekt mit seinen Wünschen ab: ETW mit Balkon und Stellplatz, Haus mit Garten bzw. Grundstück, **Ausrichtung Süd bis West, keinesfalls Nord oder Ost** (K.-o.). Die Ausrichtung steht selten im Exposé. Leite sie aus Nordpfeil im Grundriss, Sonnenstand auf Fotos oder Lageplan ab, oder nenne sie als wichtige offene Frage. Fehlt etwas, nenne es als Minuspunkt. Wenn alte Elektrik ein Thema ist, nenn als Plus, dass er die selbst machen kann.
 
 ## Ausgabe: kurz im Chat
 
@@ -86,7 +86,7 @@ Halte dich an dieses Format. Knapp, keine langen Tabellen. Zahlen auf sinnvolle 
 - [MFH] Ertragswert ca. … (Liegenschaftszins …–… %)
 
 **Chancen:** [1–2 Punkte mit Zahl]
-**Risiken / K.-o.-Check:** [2–3 Punkte, inkl. Abgleich Balkon/Stellplatz/Garten]
+**Risiken / K.-o.-Check:** [2–3 Punkte, inkl. Abgleich Balkon/Stellplatz/Garten und Ausrichtung]
 **Annahmen & offen:** [was angenommen wurde, was vor einem Gebot zu klären ist]
 
 _Schätzung auf Basis öffentlicher Daten, kein Verkehrswertgutachten und keine Anlage- oder Steuerberatung._
