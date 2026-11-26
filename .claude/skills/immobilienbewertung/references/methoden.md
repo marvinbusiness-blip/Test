@@ -7,7 +7,7 @@ Nachschlagewerk für den Skill `immobilienbewertung`. Zahlen hier sind **Größe
 2. Ertragswert (Mehrfamilienhaus, vermietete Objekte)
 3. Sachwert (nur als Plausibilitätscheck für Häuser)
 4. Kaufnebenkosten
-5. Kennzahlen für Kapitalanleger und ihre Einordnung
+5. Kennzahlen für Kapitalanleger und ihre Einordnung (5a Kauf mit Eigenkapital, 5b möblierte Vermietung)
 6. Eigennutzung: Kaufen vs. Mieten, Belastung
 7. Steuer bei Vermietung (vereinfacht)
 8. Prüfpunkte und Risiken nach Objektart
@@ -23,6 +23,8 @@ Das Hauptverfahren für Eigentumswohnungen und Ein-/Zweifamilienhäuser: Was zah
 - **Zweitbestes Datum:** Angebotspreise auf Portalen (ImmoScout24, Immowelt, Kleinanzeigen) und deren Preisatlanten. **Angebotspreise liegen oft über den tatsächlichen Kaufpreisen**, sie sind eine Obergrenze, keine Mitte.
 - **Anpassen für:** Baujahr und Modernisierung, Energieeffizienz, Etage/Aufzug, Balkon/Garten, Stellplatz, Mikrolage (Straße, Lärm), Grundstücksgröße beim Haus.
 - **Ergebnis als Spanne**, nie als Punktwert. Lieber „ca. 3.200–3.600 €/m²“ als „3.417 €/m²“.
+- **Der amtliche Richtwert ist der Anker.** Angebotspreise auf Portalen liegen oft deutlich darüber. Ein Objekt, das unter dem Angebotsschnitt, aber über dem Richtwert liegt, ist nicht günstig, sondern eher teuer.
+- **Was nicht Wohnfläche ist, vorher herausrechnen:** Stellplatz oder Garage (in Kleinstädten am Niederrhein grob: Außenstellplatz einige tausend Euro, Garage mehr; recherchieren oder als Annahme nennen), Möbel und Einbauküche zum Zeitwert. Erst danach €/m² mit dem Richtwert vergleichen. Möbel und Küche im Kaufvertrag gesondert ausweisen, darauf fällt keine Grunderwerbsteuer an.
 
 ## 2. Ertragswert (vereinfacht nach ImmoWertV)
 
@@ -72,6 +74,20 @@ Nebenkosten zahlen Banken meist nicht mit. Faustregel: **Eigenkapital mindestens
 
 **Zinsen:** Nie einen Zins erfinden. Den Nutzer fragen oder aktuelle Bauzinsen recherchieren (10 Jahre Zinsbindung) und Quelle und Datum nennen.
 
+## 5a. Kauf komplett mit Eigenkapital (Standard des Nutzers)
+
+- **Nettomietrendite** = (Jahreskaltmiete − nicht umlagefähige Kosten − Mietausfall) / Gesamtinvestition inkl. Nebenkosten. Ziel des Nutzers: ≥ 4 %.
+- **Überschuss pro Monat** vor und nach Steuern. Steuerlich zählen Miete minus Kosten minus AfA. Ohne Kredit gibt es keine Zinsen zum Absetzen, deshalb fällt meist Steuer an.
+- **Vergleich mit sicherer Anlage:** Tagesgeld- bzw. Festgeldzins auf dieselbe Summe, nach Abgeltungsteuer (≈26,4 %). Die Immobilie sollte nach Steuern klar mehr bringen, weil sie Arbeit, Risiko und geringere Liquidität bedeutet.
+- **Kaufpreis für Zielrendite:** zeigt, was er höchstens zahlen sollte.
+
+## 5b. Möblierte Vermietung
+
+- Möblierte Wohnungen erzielen meist eine höhere Miete als unmöblierte, besonders kleine Wohnungen in Pendlerlage (z. B. nahe Düsseldorf) für Wohnen auf Zeit, Projektmitarbeiter, Monteure.
+- Recherchieren: Angebote möblierter Wohnungen vergleichbarer Größe im Ort bzw. in den Nachbarorten (Portale für möbliertes Wohnen auf Zeit, große Portale mit Filter „möbliert“).
+- Immer unmöbliert als vorsichtiges Szenario daneben zeigen.
+- Rechtliches (zu prüfen): Bei Mietpreisbremse muss der Möblierungszuschlag angemessen sein. Kurzzeit- oder Ferienvermietung kann gewerblich werden (Einkommen- und ggf. Umsatzsteuer) und laut Teilungserklärung oder Zweckentfremdungsrecht eingeschränkt sein. Höherer Verwaltungsaufwand und Mieterwechsel einplanen (Mietausfall eher 5–10 % statt 2 %).
+
 ## 6. Eigennutzung
 
 - **Kaufpreis in Jahreskaltmieten:** Kaufpreis / (ortsübliche Kaltmiete für die gleiche Fläche × 12). Je höher, desto mehr spricht wirtschaftlich fürs Mieten. Werte deutlich über ≈25–30 sind aus rein finanzieller Sicht teuer.
@@ -103,7 +119,8 @@ Nebenkosten zahlen Banken meist nicht mit. Faustregel: **Eigenkapital mindestens
 - Feuchtigkeit im Keller, Dämmung.
 - Grundstück: Bodenrichtwert × Fläche vs. Kaufpreis (siehe Sachwert).
 
-**Mehrfamilienhaus / vermietete Objekte**
+**Mehrfamilienhaus / Häuser mit mehreren Wohneinheiten**
+- **Genehmigung der Wohneinheiten:** Sind alle Wohnungen baurechtlich als eigene Wohnungen genehmigt? Bauakte beim Bauamt einsehen (meist mit Vollmacht des Verkäufers). Fehlen Unterlagen, ist das ein Warnsignal und oft der Grund für einen sehr niedrigen Preis. Dann mit nur den sicher genehmigten Einheiten rechnen. Für zusätzliche Wohnungen werden oft Stellplätze und Brandschutz gefordert. Zum Aufteilen in Eigentumswohnungen braucht es eine Abgeschlossenheitsbescheinigung.
 - Mietliste: Ist-Miete je Wohnung vs. Mietspiegel, Leerstand, Mietrückstände, Mietdauer.
 - Mietverträge: Staffel-/Indexmieten, Kautionen, Streitigkeiten.
 - Instandhaltungsstau: je älter und je niedriger die Miete, desto wahrscheinlicher.

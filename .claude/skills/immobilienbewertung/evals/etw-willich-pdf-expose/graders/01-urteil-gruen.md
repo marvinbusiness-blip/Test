@@ -4,4 +4,4 @@ focus: trace
 weight: 1
 ---
 
-Die Antwort gibt ein klar positives Gesamturteil (grüne Ampel bzw. eindeutig empfehlend).
+Die Hauptbewertung für Preis und Objekt ist grün bzw. eindeutig positiv (Rendite darf getrennt bewertet werden).

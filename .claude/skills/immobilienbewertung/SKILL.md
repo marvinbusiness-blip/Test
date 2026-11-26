@@ -1,95 +1,88 @@
 ---
 name: immobilienbewertung
-description: Bewertet Eigentumswohnungen, Einfamilienhäuser (auch Doppel- und Reihenhäuser) und Mehrfamilienhäuser in Deutschland, vor allem am Niederrhein. Prüft, ob ein Kaufpreis fair ist (Vergleichswert, bei Mehrfamilienhäusern Ertragswert), und ob sich ein Objekt als Kapitalanlage lohnt (Kaufpreisfaktor, Rendite, Cashflow bei Vollfinanzierung, Kaufpreis für positiven Cashflow). Recherchiert Vergleichspreise, Bodenrichtwerte, Mietspiegel und Bauzinsen und gibt ein kurzes Urteil mit Ampel im Chat. Nutze diesen Skill immer, wenn der Nutzer einen Link zu einer Immobilienanzeige, ein Exposé oder Eckdaten einer Wohnung oder eines Hauses schickt und wissen will, ob der Preis passt, was das Objekt wert ist, ob sich der Kauf oder die Vermietung lohnt, wie viel Cashflow oder Rendite drin ist, oder wie viel er bieten sollte, auch wenn er nicht ausdrücklich „bewerten“ sagt (z. B. „Was hältst du von der Wohnung?“, „Lohnt sich das?“, „Ist das zu teuer?“).
+description: Bewertet Eigentumswohnungen, Einfamilien-, Doppel-, Reihen- und Mehrfamilienhäuser in Deutschland, vor allem am Niederrhein. Prüft den Kaufpreis gegen den amtlichen Immobilienrichtwert (bei MFH Ertragswert), den Abgleich mit den Wünschen des Nutzers (Balkon, Stellplatz, Garten, Süd-/Westausrichtung) und die Rendite bei Kauf komplett mit Eigenkapital (Nettomietrendite, Überschuss, Kaufpreis für Zielrendite, auch möbliert vermietet). Recherchiert Vergleichswerte, Mieten und Zinsen und gibt ein kurzes Ampel-Urteil im Chat. Nutze den Skill immer, wenn der Nutzer einen Link zu einer Immobilienanzeige, ein Exposé oder Eckdaten einer Wohnung oder eines Hauses schickt und wissen will, ob der Preis passt, was es wert ist, ob sich Kauf oder Vermietung lohnt oder wie viel er bieten soll, auch ohne das Wort „bewerten“ (z. B. „Was hältst du von der Wohnung?“, „Lohnt sich das?“, „Ist das zu teuer?“, „Sowas finde ich gut“).
 ---
 
 # Immobilienbewertung
 
-Ziel: eine ehrliche, schnelle Einschätzung, ob ein konkretes Objekt den Preis wert ist und ob es als Kapitalanlage trägt, kurz im Chat, mit nachvollziehbaren Zahlen. Der Nutzer will damit entscheiden, ob er ein Objekt besichtigt, wie viel er bietet oder ob er es lässt. Eine schöne, aber falsche Zahl schadet ihm mehr als eine ehrliche Spanne.
+Ziel: eine ehrliche, schnelle Einschätzung, die so urteilt, wie der Nutzer selbst urteilen würde, wenn er die Zeit für die Recherche hätte. Er entscheidet damit, ob er besichtigt, wie viel er bietet oder ob er es lässt. Eine ehrliche Spanne hilft ihm mehr als eine schöne, aber falsche Zahl.
 
-Lies zuerst `references/profil.md`. Dort stehen seine Vorlieben: Region, Standardfinanzierung, K.-o.-Kriterien, Urteilsstil. Sie gelten, solange er im Gespräch nichts anderes sagt. `references/methoden.md` ist das Nachschlagewerk für Verfahren, Faustregeln und Prüfpunkte. Lies dort die Abschnitte, die zum Objekt passen.
+Lies zuerst `references/profil.md`. Dort stehen seine Vorlieben, sein Kauf ohne Kredit, seine Zielrendite und seine K.-o.-Kriterien. Sie gelten, solange er im Gespräch nichts anderes sagt. `references/methoden.md` ist das Nachschlagewerk für Verfahren, Faustregeln und Prüfpunkte. Lies dort die passenden Abschnitte.
 
 ## Ablauf
 
 ### 1. Objektdaten holen
-- **Link:** Versuche, die Seite zu lesen (WebFetch oder, falls nicht vorhanden, der `web-fetch`-Agent). Immobilienportale blockieren automatisierte Abrufe oft, und manche Umgebungen haben keinen freien Netzzugang. Klappt es nicht, sag das in einem Satz und bitte um einen Screenshot des Exposés oder die Eckdaten. Rate nichts aus der URL zusammen.
-- **Screenshot oder PDF:** Lies alle Seiten. Achte auf das Kleingedruckte: Hausgeld-Aufteilung, Erbbaurecht, vermietet/frei, Baujahr der Heizung, Energieausweis.
-- **Wichtige Eckdaten:** Kaufpreis, Wohnfläche, Ort und Straße/Stadtteil, Baujahr, Zustand und letzte Modernisierungen, Heizung und Energiekennwert, Ausrichtung. Bei ETW zusätzlich Hausgeld (davon nicht umlagefähig), Etage, Balkon, Stellplatz. Bei Häusern die Grundstücksfläche. Bei Vermietung die Ist-Kaltmiete (bei MFH die Mietliste). Dazu die Maklerprovision.
+- **Link:** Versuche, die Seite zu lesen (WebFetch oder der `web-fetch`-Agent). Immobilienportale blocken automatisierte Abrufe oft. Klappt es nicht, sag das in einem Satz. **Such dann gezielt nach dem Inserat**: Exposé-Nummer, Eckdaten plus Ort, Titel. Oft steht dasselbe Objekt auf der Maklerseite oder einem anderen Portal, mit Baujahr, Balkon, Hausgeld, manchmal mit dem Hinweis „verkauft“. Was du so findest, gibst du als „wahrscheinlich dasselbe Objekt“ mit Link wieder, nicht als sichere Tatsache. Findest du nichts, bitte um Screenshots des Exposés. Rate nichts aus der URL zusammen.
+- **Screenshot oder PDF:** Lies alle Seiten, auch Grundriss und Fotos. Achte auf Möblierung, Stellplatz, Hausgeld-Aufteilung, Erbbaurecht, vermietet/frei, Heizung, Ausrichtung.
+- **Wichtige Eckdaten:** Kaufpreis, Wohnfläche, Ort/Stadtteil/Straße, Baujahr, Zustand, Heizung und Energiekennwert, Ausrichtung. Bei ETW zusätzlich Hausgeld (davon nicht umlagefähig), Etage, Balkon, Stellplatz, Möblierung. Bei Häusern die Grundstücksfläche und die Zahl der Wohneinheiten. Bei Vermietung die Ist-Miete. Dazu die Maklerprovision.
 
 ### 2. Zweck klären
-Kapitalanlage oder Eigennutzung? Meist ergibt es sich (vermietet, Mietliste → Anlage). Wenn nicht klar, frag kurz. Wenn beides denkbar ist, rechne den Hauptzweck und nenne den anderen in einem Satz.
+Kapitalanlage oder Eigennutzung? Meist ergibt sich das aus dem Objekt. Wenn nicht, rechne die Kapitalanlage (seine häufigere Frage) und nenne die Eigennutzung in einem Satz. **Gerechnet wird immer ohne Kredit**, komplett mit Eigenkapital, außer er fragt ausdrücklich nach einer Finanzierung.
 
 ### 3. Fehlende Angaben
-- Angaben, die das Urteil kippen können (Miete, nicht umlagefähiges Hausgeld, größere Mängel, Sonderumlagen): **kurz nachfragen, höchstens drei Fragen auf einmal**.
-- Alles andere: plausibel annehmen und in der Antwort als Annahme kennzeichnen.
-- Wenn der Nutzer sagt „rechne einfach“, rechne mit markierten Annahmen.
+- Angaben, die das Urteil kippen können (Miete, nicht umlagefähiges Hausgeld, Ausrichtung, größere Mängel, Sonderumlagen, Genehmigung der Wohneinheiten): **kurz nachfragen, höchstens drei Fragen**.
+- Alles andere: plausibel annehmen und als Annahme kennzeichnen.
 
 ### 4. Marktdaten recherchieren
-Immer per Websuche, mit Quelle und Datum (Details in `references/methoden.md`, Abschnitt 9):
-- **Vergleichspreis €/m²:** Immobilienrichtwerte bzw. Grundstücksmarktbericht des Gutachterausschusses (in NRW: BORIS-NRW), dazu Angebotspreise aus Portalen bzw. Preisatlanten. Angebotspreise liegen meist über echten Kaufpreisen.
-- **Bodenrichtwert** bei Häusern und MFH (BORIS).
-- **Vergleichsmiete:** Mietspiegel der Stadt, sonst Angebotsmieten.
-- **Bauzins** für 10 Jahre Zinsbindung, beim Standardfall Vollfinanzierung mit dem üblichen Aufschlag oder diesen klar benennen.
-- **Liegenschaftszins** bei MFH aus dem Grundstücksmarktbericht.
+Immer per Websuche, mit Quelle und Datum (Details in `methoden.md`, Abschnitte 1 und 9):
+- **Maßstab ist der amtliche Wert**, also Immobilienrichtwert, Grundstücksmarktbericht oder BORIS (in NRW: BORIS-NRW, auch über Seiten wie immobilienwerte.nrw). Diese Werte beruhen auf echten Kaufpreisen. **Angebotspreise der Portale sind nur eine Obergrenze.** Nenne einen Preis nie „günstig“, nur weil er unter dem Angebotsschnitt liegt, wenn er über dem Richtwert liegt.
+- **Vor dem Quadratmeter-Vergleich herausrechnen**, was nicht Wohnung ist: Stellplatz bzw. Garage, Möbel und Einbauküche (Zeitwert). Sind sie im Preis enthalten, ist die Wohnung selbst entsprechend günstiger. Werte recherchieren oder als Annahme nennen.
+- **Miete:** Mietspiegel bzw. Mietrichtwerte der Stadt und Angebotsmieten. **Ist die Wohnung möbliert** oder gut möbliert vermietbar, recherchiere auch möblierte Mieten vergleichbarer Größe und setze die erzielbare möblierte Miete an. Unmöbliert zeigst du als vorsichtiges Szenario daneben.
+- **Sicherer Alternativzins** (Tagesgeld/Festgeld) als Vergleich, Bodenrichtwert bei Häusern, Liegenschaftszins bei MFH.
 
-Findest du eine Zahl nicht, sag das und nimm die Spanne aus `methoden.md` als markierte Annahme. **Erfinde nie Marktdaten, Zinsen oder Quellen.** Eine falsche Zahl mit Quellenanschein ist das Schlimmste, was dieser Skill tun kann.
+Findest du eine Zahl nicht, sag das und nimm die Spanne aus `methoden.md` als markierte Annahme. **Erfinde nie Marktdaten, Mieten, Zinsen oder Quellen.**
 
 ### 5. Rechnen mit `scripts/rechner.py`
-Rechne nicht im Kopf. Das Skript liefert Kaufnebenkosten, €/m², Kaufpreisfaktor, Renditen, Finanzierung, Cashflow vor und nach Steuern, den **Kaufpreis für Cashflow ≥ 0** und bei MFH den vereinfachten Ertragswert mit Sensitivität. Alle Optionen zeigt `python3 scripts/rechner.py --help`.
+Rechne nicht im Kopf. Ohne `--zins` rechnet das Skript den Kauf komplett mit Eigenkapital: Nebenkosten, €/m², Kaufpreisfaktor, Netto- und Nachsteuerrendite, Überschuss pro Monat, Amortisation, Vergleich mit dem Alternativzins und den **Kaufpreis, ab dem die Zielrendite erreicht wird**. Alle Optionen zeigt `python3 scripts/rechner.py --help`.
 
 ```bash
-# Kapitalanlage-Wohnung, Standard laut Profil: Vollfinanzierung, 2 % Tilgung, 35 % Grenzsteuersatz
-python3 scripts/rechner.py --kaufpreis 149000 --wohnflaeche 62 --bundesland NW \
-  --kaltmiete-monat 520 --nicht-umlagefaehig-monat 95 \
-  --eigenkapital 0 --zins 4.1 --tilgung 2 --grenzsteuersatz 35
+# Kapitalanlage, Kauf mit Eigenkapital (Standard): Szenario möbliert ...
+python3 scripts/rechner.py --kaufpreis 94000 --wohnflaeche 42 --bundesland NW --makler 2.38 \
+  --kaltmiete-monat 550 --nicht-umlagefaehig-monat 74 \
+  --grenzsteuersatz 35 --alternativzins 2.5 --ziel-rendite 4
+# ... und ein zweites Mal unmöbliert mit der ortsüblichen Miete als vorsichtiges Szenario
 
 # Mehrfamilienhaus mit Ertragswert (Bodenwert = Bodenrichtwert × Fläche)
 python3 scripts/rechner.py --kaufpreis 690000 --wohnflaeche 420 --bundesland NW \
   --kaltmiete-jahr 31200 --einheiten 6 --bodenwert 180000 --liegenschaftszins 3.0 \
-  --restnutzungsdauer 30 --eigenkapital 0 --zins 4.1 --tilgung 2 --grenzsteuersatz 35
+  --restnutzungsdauer 30 --renovierung 60000 --grenzsteuersatz 35 --alternativzins 2.5
 
-# Eigennutzung Haus: Belastung und Vergleich mit Miete
+# Eigennutzung ohne Kredit: Wohnkosten (entgangene Zinsen + Rücklage) vs. Miete
 python3 scripts/rechner.py --kaufpreis 465000 --wohnflaeche 125 --bundesland NW --makler 3.57 \
-  --eigenkapital 0 --zins 4.1 --tilgung 2 --instandhaltung-monat 300 --vergleichsmiete-qm 11.0
+  --instandhaltung-monat 350 --vergleichsmiete-qm 12.5 --alternativzins 2.5
 ```
 
-- Bekannte Mängel bzw. Sanierungskosten (Heizung, Dach) als `--renovierung` mitgeben, bei kleineren Arbeiten grob schätzen.
-- **Chancen-Szenario:** Liegt die Ist-Miete unter dem Mietspiegel, ein zweites Mal mit der erreichbaren Miete rechnen. Dabei Kappungsgrenze und Mietpreisbremse beachten.
-- Für den Vergleichswert gibt es kein Skript: Spanne aus den recherchierten €/m² bilden, nach Baujahr, Zustand, Lage und Ausstattung anpassen (`methoden.md`, Abschnitt 1).
+- Bekannte Sanierungskosten als `--renovierung` mitgeben.
+- **Mehrparteienhaus ohne Unterlagen zur Genehmigung:** ein zweites Mal nur mit den sicher genehmigten Einheiten bzw. als Einfamilienhaus mit Einliegerwohnung rechnen. Der Preis muss zu diesem vorsichtigen Szenario passen.
+- Für den Vergleichswert gibt es kein Skript: Spanne aus den amtlichen Werten bilden, nach Baujahr, Zustand, Lage und Ausstattung anpassen.
 
-### 6. Urteilen
-**Ampel:**
-- 🟢 **Gut:** Preis im oder unter dem Marktwert. Bei Kapitalanlage Cashflow ≥ 0 oder ein realistisches Potenzial schließt die Lücke. Kein K.-o.-Kriterium.
-- 🟡 **Verhandeln / genauer prüfen:** Preis leicht über Markt, oder der Cashflow-Zielpreis liegt bis etwa 15 % unter dem Angebot, oder wichtige Unterlagen fehlen noch. Kein K.-o.
-- 🔴 **Eher lassen:** K.-o.-Kriterium aus dem Profil erfüllt (Sanierungsstau/Sonderumlage, schlechte Mikrolage), oder deutlich über Markt, oder positiver Cashflow nur mit großem Preisnachlass und ohne Potenzial.
+### 6. Urteilen: zwei getrennte Aussagen
+**A) Preis und Objekt (die Hauptampel):** So würde er selbst urteilen.
+- 🟢 **Top / guter Preis:** Preis (nach Abzug von Stellplatz und Möbeln) **unter oder am Richtwert**, seine Wünsche erfüllt, kein K.-o.
+- 🟡 **Okay, aber verhandeln:** Preis **über dem Richtwert** (etwa bis 15 %), oder ein Wunsch fehlt (z. B. kein Stellplatz), oder eine wichtige Angabe ist offen.
+- 🔴 **Eher lassen:** K.-o.-Kriterium erfüllt (Ausrichtung Nord/Ost, WEG-Sanierungsstau/Sonderumlage, schlechte Mikrolage) oder deutlich über dem Richtwert.
 
-Urteile **chancenorientiert**, wie im Profil gewünscht. Zeig Potenziale mit Zahl, aber immer neben dem Basisszenario mit heutigen Werten. K.-o. bleibt K.-o.
+**B) Rendite (bei Kapitalanlage):** eine Zeile mit Nettomietrendite gegenüber seinem Ziel (Standard 4 %) und dem sicheren Alternativzins, dazu der Überschuss pro Monat. Eine schwache Rendite macht ein gutes Objekt nicht automatisch rot. Nenne aber klar den Kaufpreis, ab dem es sich rechnet.
 
-Gleiche das Objekt mit seinen Wünschen ab: ETW mit Balkon und Stellplatz, Haus mit Garten bzw. Grundstück, **Ausrichtung Süd bis West, keinesfalls Nord oder Ost** (K.-o.). Die Ausrichtung steht selten im Exposé. Leite sie aus Nordpfeil im Grundriss, Sonnenstand auf Fotos oder Lageplan ab, oder nenne sie als wichtige offene Frage. Fehlt etwas, nenne es als Minuspunkt. Wenn alte Elektrik ein Thema ist, nenn als Plus, dass er die selbst machen kann.
+Urteile **chancenorientiert**: Potenziale wie möblierte Vermietung, Miete bis zum Mietspiegel, eigene Elektroarbeiten oder kleinere Renovierung zeigst du mit Zahl. Das Basisszenario steht immer daneben, und K.-o. bleibt K.-o. Gleiche jedes Objekt mit seinen Wünschen ab: ETW mit Balkon und Stellplatz, Haus mit Garten, **Ausrichtung Süd bis West** (aus Nordpfeil, Fotos oder Lageplan ableiten, sonst offene Frage), gute Aussicht als Plus.
 
 ## Ausgabe: kurz im Chat
 
-Halte dich an dieses Format. Knapp, keine langen Tabellen. Zahlen auf sinnvolle Stellen runden.
+Etwa 12–15 Zeilen. Keine Tabellen, keine langen Erklärungen. Details nur, wenn er nachfragt.
 
 ```
-**[Objekt in einem Satz: Art, Ort, m², Baujahr, Preis]** · Zweck: [Kapitalanlage/Eigennutzung]
+**[Art, Ort, m², Baujahr, Preis]**
 
-**Urteil: [🟢/🟡/🔴] [ein Satz, warum]**
+**Preis & Objekt: [🟢/🟡/🔴] [ein Satz]**
+**Rendite (ohne Kredit): [Nettomietrendite] % · [Überschuss] €/Monat · Ziel 4 % ab ca. [Preis] €** [bei Eigennutzung stattdessen: Wohnkosten … € vs. Miete … €]
 
-**Wert:** Markt ca. [X–Y] € ([Methode], [Quelle, Datum]) · Angebot [Z] € → [unter/im/über] Markt um ca. [N] %
-**Zielpreis:** [Kapitalanlage: Cashflow ≥ 0 bis ca. … €] [Eigennutzung: fairer Verhandlungsrahmen …]
+- **Preis:** [€/m² nach Abzug Stellplatz/Möbel] vs. Richtwert [..] €/m² ([Quelle, Datum]) → [unter/am/über] um ca. [N] %
+- **Miete:** [angesetzte Miete, möbliert/unmöbliert, Quelle bzw. Annahme]
+- **Plus:** [2–3 Punkte, z. B. Balkon ✓, Stellplatz ✓, Aussicht, Potenzial]
+- **Minus / K.-o.-Check:** [2–3 Punkte, inkl. Ausrichtung]
+- **Bieten:** [Erstgebot / Obergrenze]
 
-**Zahlen** ([Finanzierung], Zins [..] % laut [Quelle, Datum])
-- Gesamtinvestition inkl. Nebenkosten: …
-- [Kapitalanlage] Kaufpreisfaktor … · Bruttorendite … · Cashflow … vor / … nach Steuern pro Monat
-- [Eigennutzung] Belastung … pro Monat · vergleichbare Miete … · Kaufpreis = … Jahresmieten
-- [MFH] Ertragswert ca. … (Liegenschaftszins …–… %)
+**Offen:** [höchstens 3 Fragen oder Unterlagen, die vor einem Gebot zu klären sind]
 
-**Chancen:** [1–2 Punkte mit Zahl]
-**Risiken / K.-o.-Check:** [2–3 Punkte, inkl. Abgleich Balkon/Stellplatz/Garten und Ausrichtung]
-**Annahmen & offen:** [was angenommen wurde, was vor einem Gebot zu klären ist]
-
-_Schätzung auf Basis öffentlicher Daten, kein Verkehrswertgutachten und keine Anlage- oder Steuerberatung._
+_Schätzung, kein Gutachten, keine Anlageberatung._
 ```
-
-Will der Nutzer Details, zeig die Tabellen aus dem Rechner. Ohne Nachfrage nicht.

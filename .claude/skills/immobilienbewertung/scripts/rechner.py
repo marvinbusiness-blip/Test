@@ -6,10 +6,10 @@ und Kapitalanlage zählen, und gibt sie als Markdown aus. Jede Zahl kommt aus de
 übergebenen Argumenten; fehlt etwas, wird der Abschnitt weggelassen statt geraten.
 
 Beispiele:
-  # Kapitalanlage-Wohnung
+  # Kapitalanlage-Wohnung, Kauf komplett mit Eigenkapital (Standard, kein --zins)
   python3 rechner.py --kaufpreis 129000 --wohnflaeche 55 --bundesland NW \
       --kaltmiete-monat 450 --nicht-umlagefaehig-monat 90 \
-      --eigenkapital 30000 --zins 3.8 --tilgung 2 --grenzsteuersatz 35
+      --grenzsteuersatz 35 --alternativzins 2.5 --ziel-rendite 4
 
   # Eigennutzung Haus, Vergleich mit Miete
   python3 rechner.py --kaufpreis 465000 --wohnflaeche 125 --bundesland NW --makler 3.57 \
@@ -44,6 +44,12 @@ def pct(x, nachkomma=1):
     return f"{x * 100:.{nachkomma}f} %".replace(".", ",")
 
 
+def delta(x):
+    """Prozentuale Abweichung mit Vorzeichen, z. B. +34 % oder −13 %."""
+    v = f"{abs(x) * 100:.0f} %"
+    return ("+" if x >= 0 else "−") + v
+
+
 def zahl(x, nachkomma=1):
     return f"{x:.{nachkomma}f}".replace(".", ",")
 
@@ -76,9 +82,12 @@ def main(argv=None):
                    help="eigene Instandhaltungsrücklage pro Monat (Haus, Eigennutzung)")
     p.add_argument("--vergleichsmiete-qm", type=float, help="ortsübliche Kaltmiete €/m² (Eigennutzung)")
     # Finanzierung
-    p.add_argument("--eigenkapital", type=float)
-    p.add_argument("--zins", type=float, help="Sollzins in %%")
+    p.add_argument("--eigenkapital", type=float, help="nur mit --zins: Eigenkapital bei Kreditfinanzierung")
+    p.add_argument("--zins", type=float, help="Sollzins in %% (ohne Angabe: Kauf komplett mit Eigenkapital)")
     p.add_argument("--tilgung", type=float, default=2.0, help="anfängliche Tilgung in %%")
+    # Eigenkapital-Kauf
+    p.add_argument("--alternativzins", type=float, help="sicherer Zins in %% (Tagesgeld/Festgeld) als Vergleich")
+    p.add_argument("--ziel-rendite", type=float, default=4.0, help="Ziel-Nettomietrendite in %% (Standard 4,0)")
     # Steuer (vereinfacht)
     p.add_argument("--grenzsteuersatz", type=float, help="in %%, für Steuereffekt Kapitalanlage")
     p.add_argument("--gebaeudeanteil", type=float, default=70.0, help="Gebäudeanteil am Kaufpreis in %%")
@@ -135,6 +144,26 @@ def main(argv=None):
         out.append(f"| Nicht umlagefähige Kosten pro Jahr | {eur(nu_jahr)} |")
         out.append(f"| Mietausfallwagnis ({zahl(a.mietausfall)} %) | {eur(ausfall)} |")
         out.append(f"| Nettomietrendite (nach Kosten / Gesamtinvestition) | {pct(rein / gesamt, 2)} |")
+        if a.zins is None:
+            out.append(f"| **Überschuss pro Monat ohne Kredit (vor Steuern)** | **{eur(rein / 12)}** |")
+            ziel = a.ziel_rendite / 100
+            nk_quote = (grest + a.notar + a.makler) / 100
+            kp_ziel = (rein / ziel - a.renovierung) / (1 + nk_quote)
+            out.append(f"| **Kaufpreis für {zahl(a.ziel_rendite)} % Nettomietrendite** | **{eur(kp_ziel)}** ({delta(kp_ziel / kp - 1)} ggü. Angebot) |")
+            steuer_j = 0.0
+            if a.grenzsteuersatz is not None:
+                afa_j = (kp + nk) * a.gebaeudeanteil / 100 * a.afa / 100
+                ergebnis = jm - nu_jahr - afa_j
+                steuer_j = ergebnis * a.grenzsteuersatz / 100
+                out.append(f"| Steuerliches Ergebnis pro Jahr (Miete − Kosten − AfA {zahl(a.afa)} % auf {zahl(a.gebaeudeanteil, 0)} % Gebäudeanteil) | {eur(ergebnis)} |")
+                out.append(f"| Überschuss pro Monat nach Steuern ({zahl(a.grenzsteuersatz, 0)} %) | {eur((rein - steuer_j) / 12)} |")
+                out.append(f"| Rendite nach Steuern | {pct((rein - steuer_j) / gesamt, 2)} |")
+            if rein - steuer_j > 0:
+                out.append(f"| Amortisation (Gesamtinvestition / Jahresüberschuss{' nach Steuern' if a.grenzsteuersatz is not None else ''}) | {zahl(gesamt / (rein - steuer_j))} Jahre |")
+            if a.alternativzins is not None:
+                alt = gesamt * a.alternativzins / 100
+                alt_netto = alt * (1 - 0.26375)
+                out.append(f"| Vergleich: {zahl(a.alternativzins, 2)} % sicherer Zins auf {eur(gesamt)} | {eur(alt / 12)} pro Monat vor, {eur(alt_netto / 12)} nach Abgeltungsteuer |")
 
     # --- Finanzierung ---
     if a.eigenkapital is not None and a.zins is not None:
@@ -161,7 +190,7 @@ def main(argv=None):
             nk_quote = (grest + a.notar + a.makler) / 100
             if annu > 0:
                 max_kp = ((jm - nu_jahr - ausfall) / annu + a.eigenkapital - a.renovierung) / (1 + nk_quote)
-                out.append(f"| **Kaufpreis für Cashflow ≥ 0 (gleiche Finanzierung)** | **{eur(max_kp)}** ({pct(max_kp / kp - 1, 0)} ggü. Angebot) |")
+                out.append(f"| **Kaufpreis für Cashflow ≥ 0 (gleiche Finanzierung)** | **{eur(max_kp)}** ({delta(max_kp / kp - 1)} ggü. Angebot) |")
             out.append(f"| Cashflow vor Steuern + Tilgung (Vermögensaufbau) pro Monat | {eur(cf_m + tilg_j / 12)} |")
             if a.eigenkapital > 0:
                 ekr = (cf_m * 12 + tilg_j) / a.eigenkapital
@@ -184,9 +213,16 @@ def main(argv=None):
                 out.append(f"| Zinsen + Hausgeld/Rücklage (Kosten ohne Tilgung) vs. Miete | {eur(zinsen_j / 12 + a.hausgeld_monat + a.instandhaltung_monat)} vs. {eur(miete_m)} |")
     elif a.vergleichsmiete_qm:
         miete_m = a.vergleichsmiete_qm * wf
-        out.append("\n### Vergleich mit Miete")
-        out.append(f"- Ortsübliche Kaltmiete für die Fläche: {eur(miete_m)} pro Monat")
-        out.append(f"- Kaufpreis in Jahreskaltmieten: {zahl(kp / (miete_m * 12))}")
+        out.append("\n### Eigennutzung ohne Kredit: Vergleich mit Miete")
+        out.append("| Kennzahl | Wert |")
+        out.append("|---|---:|")
+        out.append(f"| Ortsübliche Kaltmiete für die Fläche | {eur(miete_m)} pro Monat |")
+        out.append(f"| Kaufpreis in Jahreskaltmieten | {zahl(kp / (miete_m * 12))} |")
+        if a.alternativzins is not None:
+            entgang = gesamt * a.alternativzins / 100 * (1 - 0.26375) / 12
+            wohnkosten = entgang + a.hausgeld_monat + a.instandhaltung_monat
+            out.append(f"| Entgangene Zinsen auf {eur(gesamt)} ({zahl(a.alternativzins, 2)} %, nach Abgeltungsteuer) | {eur(entgang)} pro Monat |")
+            out.append(f"| **Wohnkosten Eigentum (entgangene Zinsen + Hausgeld/Rücklage) vs. Miete** | **{eur(wohnkosten)} vs. {eur(miete_m)}** |")
 
     # --- Ertragswert (vereinfacht) ---
     if jm and a.bodenwert is not None and a.liegenschaftszins is not None and a.restnutzungsdauer:

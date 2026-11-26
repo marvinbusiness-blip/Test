@@ -4,4 +4,4 @@ focus: trace
 weight: 1
 ---
 
-Das Gesamturteil lautet sinngemäß 'okay, aber eher zu teuer / verhandeln' (gelbe Ampel), nicht uneingeschränkt positiv.
+Die Hauptbewertung für Preis und Objekt ist gelb bzw. 'okay, aber etwas zu teuer / verhandeln', nicht grün.
