@@ -30,7 +30,7 @@ Immer per Websuche, mit Quelle und Datum (Details in `methoden.md`, Abschnitte 1
 - **Miete:** Mietspiegel bzw. Mietrichtwerte der Stadt und Angebotsmieten. **Ist die Wohnung möbliert** oder gut möbliert vermietbar, recherchiere auch möblierte Mieten vergleichbarer Größe und setze die erzielbare möblierte Miete an. Unmöbliert zeigst du als vorsichtiges Szenario daneben.
 - **Sicherer Alternativzins** (Tagesgeld/Festgeld) als Vergleich, Bodenrichtwert bei Häusern, Liegenschaftszins bei MFH.
 
-Findest du eine Zahl nicht, sag das und nimm die Spanne aus `methoden.md` als markierte Annahme. **Erfinde nie Marktdaten, Mieten, Zinsen oder Quellen.**
+Jede Marktzahl in der Antwort bekommt eine Quelle, auch Bodenrichtwerte und Stellplatzwerte, oder sie wird ausdrücklich als Annahme markiert. Findest du eine Zahl nicht, sag das und nimm die Spanne aus `methoden.md` als markierte Annahme. **Erfinde nie Marktdaten, Mieten, Zinsen oder Quellen.**
 
 ### 5. Rechnen mit `scripts/rechner.py`
 Rechne nicht im Kopf. Ohne `--zins` rechnet das Skript den Kauf komplett mit Eigenkapital: Nebenkosten, €/m², Kaufpreisfaktor, Netto- und Nachsteuerrendite, Überschuss pro Monat, Amortisation, Vergleich mit dem Alternativzins und den **Kaufpreis, ab dem die Zielrendite erreicht wird**. Alle Optionen zeigt `python3 scripts/rechner.py --help`.
@@ -59,7 +59,9 @@ python3 scripts/rechner.py --kaufpreis 465000 --wohnflaeche 125 --bundesland NW 
 ### 6. Urteilen: zwei getrennte Aussagen
 **A) Preis und Objekt (die Hauptampel):** So würde er selbst urteilen.
 - 🟢 **Top / guter Preis:** Preis (nach Abzug von Stellplatz und Möbeln) **unter oder am Richtwert**, seine Wünsche erfüllt, kein K.-o.
-- 🟡 **Okay, aber verhandeln:** Preis **über dem Richtwert** (etwa bis 15 %), oder ein Wunsch fehlt (z. B. kein Stellplatz), oder eine wichtige Angabe ist offen.
+- 🟡 **Okay, aber verhandeln:** Preis **über dem Richtwert** (etwa bis 15 %), oder ein Wunsch fehlt (z. B. kein Stellplatz).
+
+**Offene Prüfpunkte senken die Ampel nicht.** Ist z. B. die Ausrichtung oder der Stand der WEG-Rücklage unbekannt, urteile so, als ob sie passen, und schreib dazu „unter Vorbehalt: …“. Er kennt solche Punkte oft schon oder klärt sie bei der Besichtigung. Nur wenn konkrete Hinweise auf ein K.-o. deuten, wird es gelb oder rot.
 - 🔴 **Eher lassen:** K.-o.-Kriterium erfüllt (Ausrichtung Nord/Ost, WEG-Sanierungsstau/Sonderumlage, schlechte Mikrolage) oder deutlich über dem Richtwert.
 
 **B) Rendite (bei Kapitalanlage):** eine Zeile mit Nettomietrendite gegenüber seinem Ziel (Standard 4 %) und dem sicheren Alternativzins, dazu der Überschuss pro Monat. Eine schwache Rendite macht ein gutes Objekt nicht automatisch rot. Nenne aber klar den Kaufpreis, ab dem es sich rechnet.
@@ -73,7 +75,7 @@ Etwa 12–15 Zeilen. Keine Tabellen, keine langen Erklärungen. Details nur, wen
 ```
 **[Art, Ort, m², Baujahr, Preis]**
 
-**Preis & Objekt: [🟢/🟡/🔴] [ein Satz]**
+**Preis & Objekt: [🟢/🟡/🔴] [ein Satz]** [ggf. „unter Vorbehalt: …“]
 **Rendite (ohne Kredit): [Nettomietrendite] % · [Überschuss] €/Monat · Ziel 4 % ab ca. [Preis] €** [bei Eigennutzung stattdessen: Wohnkosten … € vs. Miete … €]
 
 - **Preis:** [€/m² nach Abzug Stellplatz/Möbel] vs. Richtwert [..] €/m² ([Quelle, Datum]) → [unter/am/über] um ca. [N] %
