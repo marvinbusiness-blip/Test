@@ -39,7 +39,7 @@ Alle Aufgaben hast du selbst. Mit 🔴 markiert ist der **kritische Pfad**: Ruts
 ### Block 1: Klären (KW 48–51, 23.11.–18.12.2026)
 | Aufgabe | Frist |
 |---|---|
-| 🔴 **Kostenlose Beratung HWK Düsseldorf** buchen und wahrnehmen: Rentenversicherung im Nebenerwerb, Gewährleistung 2 oder 5 Jahre, Muster-AGB, Abnahmeprotokoll, Eintragungsgebühr, öffentliche Werbung vor der Eintragung | Termin bis 27.11., Gespräch bis 11.12. |
+| 🔴 **Kostenlose Beratung HWK Düsseldorf** buchen und wahrnehmen: Rentenversicherung im Nebenerwerb, Gewährleistung 2 oder 5 Jahre, Muster-AGB, Abnahmeprotokoll, Eintragungsgebühr, öffentliche Werbung vor der Eintragung | ✓ Termin gebucht: **Gespräch am 06.01.2027** |
 | **Arbeitsvertrag lesen:** Genehmigungspflicht, Wettbewerbsverbot, Meldepflichten. Antrag schriftlich vorbereiten, aber **noch nicht stellen** (Probezeit bis 31.01.) | 18.12. |
 | **DRV** anfragen: Versicherungspflicht, Geringfügigkeitsgrenze, Beitrag | 11.12. |
 | **BG ETEM** anfragen: Unternehmer-Pflichtversicherung für Ein-Personen-Elektrobetrieb, Kosten | 11.12. |
