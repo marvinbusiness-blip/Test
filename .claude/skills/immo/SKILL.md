@@ -1,9 +1,9 @@
 ---
-name: immobilienbewertung
+name: immo
 description: Bewertet Eigentumswohnungen, Einfamilien-, Doppel-, Reihen- und Mehrfamilienhäuser in Deutschland, vor allem am Niederrhein. Prüft den Kaufpreis gegen den amtlichen Immobilienrichtwert (bei MFH Ertragswert), den Abgleich mit den Wünschen des Nutzers (Balkon, Stellplatz, Garten, Süd-/Westausrichtung) und die Rendite bei Kauf komplett mit Eigenkapital (Nettomietrendite, Überschuss, Kaufpreis für Zielrendite, auch möbliert vermietet). Recherchiert Vergleichswerte, Mieten und Zinsen und gibt ein kurzes Ampel-Urteil im Chat. Nutze den Skill immer, wenn der Nutzer einen Link zu einer Immobilienanzeige, ein Exposé oder Eckdaten einer Wohnung oder eines Hauses schickt und wissen will, ob der Preis passt, was es wert ist, ob sich Kauf oder Vermietung lohnt oder wie viel er bieten soll, auch ohne das Wort „bewerten“ (z. B. „Was hältst du von der Wohnung?“, „Lohnt sich das?“, „Ist das zu teuer?“, „Sowas finde ich gut“).
 ---
 
-# Immobilienbewertung
+# Immobilienbewertung (/immo)
 
 Ziel: eine ehrliche, schnelle Einschätzung, die so urteilt, wie der Nutzer selbst urteilen würde, wenn er die Zeit für die Recherche hätte. Er entscheidet damit, ob er besichtigt, wie viel er bietet oder ob er es lässt. Eine ehrliche Spanne hilft ihm mehr als eine schöne, aber falsche Zahl.
 

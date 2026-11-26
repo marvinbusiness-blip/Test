@@ -1,6 +1,6 @@
 ---
 name: marktscanner
-description: Durchsucht den Immobilienmarkt am Niederrhein (Willich und Umgebung) nach neuen Inseraten, die zum Suchprofil des Nutzers passen (Eigentumswohnungen bis 140.000 €, Häuser bis 350.000 €), bewertet neue Treffer kurz mit dem Skill immobilienbewertung, meldet nur wirklich interessante und merkt sich, was schon gemeldet wurde. Nutze diesen Skill, wenn der Marktscanner läuft (z. B. als geplante Aufgabe), oder wenn der Nutzer fragt „Gibt es was Neues?“, „Scan mal den Markt“, „Neue Wohnungen in Willich?“ oder nach aktuellen Angeboten in seinem Suchprofil.
+description: Durchsucht den Immobilienmarkt am Niederrhein (Willich und Umgebung) nach neuen Inseraten, die zum Suchprofil des Nutzers passen (Eigentumswohnungen bis 140.000 €, Häuser bis 350.000 €), bewertet neue Treffer kurz mit dem Skill immo, meldet nur wirklich interessante und merkt sich, was schon gemeldet wurde. Nutze diesen Skill, wenn der Marktscanner läuft (z. B. als geplante Aufgabe), oder wenn der Nutzer fragt „Gibt es was Neues?“, „Scan mal den Markt“, „Neue Wohnungen in Willich?“ oder nach aktuellen Angeboten in seinem Suchprofil.
 ---
 
 # Marktscanner
@@ -11,7 +11,7 @@ Ziel: Der Nutzer soll von neuen, wirklich passenden Inseraten früh erfahren und
 - `references/suchprofil.md`: Was gesucht wird, Region, Ausschlüsse, Quellen, Referenzwerte. **Zuerst lesen.**
 - `marktscanner/gesehen.json` (im Repo): bereits gesehene Inserate. Nur Neues melden.
 - `marktscanner/funde.md` (im Repo): Protokoll der gemeldeten Funde, neueste oben.
-- Für die Bewertung: Skill `immobilienbewertung` (`.claude/skills/immobilienbewertung/`), vor allem `references/profil.md` und `scripts/rechner.py`.
+- Für die Bewertung: Skill `immo` (`.claude/skills/immo/`), vor allem `references/profil.md` und `scripts/rechner.py`.
 
 ## Ablauf eines Laufs
 
@@ -26,13 +26,13 @@ Ziel: Der Nutzer soll von neuen, wirklich passenden Inseraten früh erfahren und
 - Offensichtlich verkaufte oder reservierte Objekte → nur in `gesehen.json` eintragen, nicht melden.
 
 ### 3. Kurz bewerten
-Für jeden neuen Kandidaten die Schnellversion des Skills `immobilienbewertung`. Nutze die Referenzwerte aus dem Suchprofil statt jedes Mal neu zu recherchieren. Recherchiere nur nach, wenn ein Ort neu ist oder die Werte älter als ein Jahr sind.
+Für jeden neuen Kandidaten die Schnellversion des Skills `immo`. Nutze die Referenzwerte aus dem Suchprofil statt jedes Mal neu zu recherchieren. Recherchiere nur nach, wenn ein Ort neu ist oder die Werte älter als ein Jahr sind.
 - €/m² (nach Abzug von Stellplatz/Möbeln, falls bekannt) gegen den Richtwert
 - Wünsche: Balkon, Stellplatz, Garten, Ausrichtung (falls erkennbar), Aussicht
 - Rendite ohne Kredit mit `rechner.py`, wenn eine Miete bekannt oder sinnvoll schätzbar ist
 - K.-o.-Hinweise aus dem Suchprofil
 
-Ampel wie im Skill `immobilienbewertung`. **Gemeldet wird nur 🟢 oder 🟡 mit klarem Grund.** 🔴 nur in `gesehen.json` eintragen.
+Ampel wie im Skill `immo`. **Gemeldet wird nur 🟢 oder 🟡 mit klarem Grund.** 🔴 nur in `gesehen.json` eintragen.
 
 ### 4. Merken und protokollieren
 - Alle geprüften neuen Inserate (auch nicht gemeldete) in `marktscanner/gesehen.json` eintragen: `id` (Portal + Exposé-Nr. oder Kurzname), `quelle` (URL), `art`, `ort`, `preis`, `flaeche`, `gesehen` (Datum), `urteil` (ein Satz).

@@ -1,6 +1,6 @@
 # Methoden, Faustregeln und Prüfpunkte
 
-Nachschlagewerk für den Skill `immobilienbewertung`. Zahlen hier sind **Größenordnungen und Faustregeln**, keine festen Grenzwerte. Lage, Zustand und Markt schlagen jede Faustregel. Wenn ein Wert für das Urteil wichtig ist, aktuell nachschlagen.
+Nachschlagewerk für den Skill `immo`. Zahlen hier sind **Größenordnungen und Faustregeln**, keine festen Grenzwerte. Lage, Zustand und Markt schlagen jede Faustregel. Wenn ein Wert für das Urteil wichtig ist, aktuell nachschlagen.
 
 ## Inhalt
 1. Vergleichswert (Wohnung, Haus)
