@@ -1,0 +1,8 @@
+{
+ "hinweis": "Bereits gesehene Inserate. Der Marktscanner meldet nur Inserate, die hier noch nicht stehen, und trägt neue nach jedem Lauf ein.",
+ "inserate": [
+  {"id": "schmitz-willich-buedericher-str-7", "quelle": "Kurzexposé Schmitz Immobilien (PDF vom Nutzer)", "art": "ETW", "ort": "Willich, Büdericher Str. 7", "preis": 94000, "flaeche": 42, "gesehen": "2026-11-26", "urteil": "vom Nutzer als top bewertet"},
+  {"id": "immoscout-170735858", "quelle": "https://www.immobilienscout24.de/expose/170735858", "art": "ETW", "ort": "Willich", "preis": 139000, "flaeche": 54.61, "gesehen": "2026-11-26", "urteil": "okay, Preis etwas zu hoch (wahrscheinlich Schreurs Obj.-Nr. 4654, evtl. verkauft)"},
+  {"id": "immoscout-170174732", "quelle": "https://www.immobilienscout24.de/expose/170174732", "art": "Dreifamilienhaus", "ort": "Willich-Anrath", "preis": 290000, "flaeche": 180, "gesehen": "2026-11-26", "urteil": "spannend, aber Wohneinheiten nicht genehmigt (wahrscheinlich Falk Immobilien)"}
+ ]
+}
