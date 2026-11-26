@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: etw-willich-pdf-expose
+expected_outcome: |
+  Bewertet die 42-m²-Wohnung (94.000 €, Baujahr 1973, Balkon, Stellplatz, Nachtspeicher) als gutes bis sehr gutes Angebot (grün), preist die Nachtspeicherheizung ein, erfindet keine Miete als Fakt und nennt die Ausrichtung als offene Frage oder leitet sie her.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: mfh-willich-dreiparteien-link
+expected_outcome: |
+  Erkennt den sehr niedrigen Preis, verlangt vor einem Gebot die Prüfung, ob die drei Wohnungen baurechtlich genehmigt sind (Bauakte), rechnet ein vorsichtiges Szenario mit weniger genehmigten Einheiten, preist die Renovierung ein und rechnet ohne Kredit.
